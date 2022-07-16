@@ -15,23 +15,62 @@ struct MainView: View {
         
         ZStack {
             
-            Color
-                .black
+            Color.black
                 
-            VStack {
+            List {
+                
+                Spacer()
+                    .frame(height: 50)
+                    .listRowBackground(Color.black)
                 
                 Text("This is a hybird code")
                     .foregroundColor(.white)
                     .font(.system(size: 25, design: .rounded))
                     .fontWeight(.bold)
+                    .listRowBackground(Color.black)
                 
                 chapterIIIView
-                
+                    .listRowBackground(Color.black)
+                      
                 chapterIVView
+                    .listRowBackground(Color.black)
+                
+                chapterVIView
+                    .listRowBackground(Color.black)
             }
         }
+        .listStyle(.plain)
         .ignoresSafeArea()
         
+    }
+    
+    private var chapterVIView: some View {
+        
+        VStack {
+            
+            Spacer()
+                .frame(height: 10)
+            
+            Button(action: {
+                
+            }, label: {
+                
+                Button(action: {
+                   
+                    onButtonClick("Chapter 6")
+                    
+                }, label: {
+                    
+                    Text("Chapter 6")
+                        .font(.system(size: 20, design: .rounded))
+                })
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.purple)
+                .cornerRadius(10)
+            })
+            
+        }
     }
     
     private var chapterIVView: some View {

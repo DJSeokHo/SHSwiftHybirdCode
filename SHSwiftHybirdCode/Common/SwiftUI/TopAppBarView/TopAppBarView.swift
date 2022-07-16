@@ -70,6 +70,7 @@ struct TopAppBarView: View {
             }
         })
         .frame(height: 50)
+        .background(Color(hex: backgroundColor))
     }
 }
 
