@@ -33,6 +33,12 @@ class MainViewController: UIViewController {
                             
                             break
                             
+                        case "Chapter 4 HW":
+                            
+                            ChapterIVHomeworkViewController.start(viewController: self)
+                            
+                            break
+                            
                         default:
                             break
                         }

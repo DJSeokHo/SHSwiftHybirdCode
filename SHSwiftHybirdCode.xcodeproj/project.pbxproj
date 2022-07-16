@@ -24,6 +24,8 @@
 		041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83428815E14003970A3 /* TopAppBarView.swift */; };
 		041DC83928815F3D003970A3 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83828815F3D003970A3 /* Debug.swift */; };
 		041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83C28815FDD003970A3 /* ColorExtension.swift */; };
+		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
+		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		041DC83428815E14003970A3 /* TopAppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppBarView.swift; sourceTree = "<group>"; };
 		041DC83828815F3D003970A3 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		041DC83C28815FDD003970A3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
+		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,8 +213,8 @@
 		041DC82C288148CB003970A3 /* ChapterIV */ = {
 			isa = PBXGroup;
 			children = (
-				041DC82D288148DD003970A3 /* ChapterIVViewController.swift */,
-				041DC82F2881492F003970A3 /* ChapterIVView.swift */,
+				04688F8B28827C26002F32D2 /* Homework */,
+				04688F8A28827C19002F32D2 /* Tutorial */,
 			);
 			path = ChapterIV;
 			sourceTree = "<group>";
@@ -253,6 +257,24 @@
 				041DC83828815F3D003970A3 /* Debug.swift */,
 			);
 			path = Debug;
+			sourceTree = "<group>";
+		};
+		04688F8A28827C19002F32D2 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				041DC82D288148DD003970A3 /* ChapterIVViewController.swift */,
+				041DC82F2881492F003970A3 /* ChapterIVView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		04688F8B28827C26002F32D2 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */,
+				04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */,
+			);
+			path = Homework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,11 +414,13 @@
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
+				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
+				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

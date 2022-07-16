@@ -41,24 +41,47 @@ struct MainView: View {
             Spacer()
                 .frame(height: 10)
             
-            Button(action: {
-                
-            }, label: {
+            HStack {
                 
                 Button(action: {
-                   
-                    onButtonClick("Chapter 4")
                     
                 }, label: {
                     
-                    Text("Chapter 4")
-                        .font(.system(size: 20, design: .rounded))
+                    Button(action: {
+                       
+                        onButtonClick("Chapter 4")
+                        
+                    }, label: {
+                        
+                        Text("Chapter 4")
+                            .font(.system(size: 20, design: .rounded))
+                    })
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.purple)
+                    .cornerRadius(10)
                 })
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.purple)
-                .cornerRadius(10)
-            })
+                
+                Button(action: {
+                    
+                }, label: {
+                    
+                    Button(action: {
+                       
+                        onButtonClick("Chapter 4 HW")
+                        
+                    }, label: {
+                        
+                        Text("Chapter 4 HW")
+                            .font(.system(size: 20, design: .rounded))
+                    })
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.purple)
+                    .cornerRadius(10)
+                })
+            }
+            
             
         }
     }
