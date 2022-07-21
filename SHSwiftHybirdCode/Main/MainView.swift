@@ -37,6 +37,13 @@ struct MainView: View {
                 
                 chapterVIView
                     .listRowBackground(Color.black)
+                
+                chapterVIIView
+                    .listRowBackground(Color.black)
+                
+                Spacer()
+                    .frame(height: 50)
+                    .listRowBackground(Color.black)
             }
         }
         .listStyle(.plain)
@@ -44,7 +51,7 @@ struct MainView: View {
         
     }
     
-    private var chapterVIView: some View {
+    private var chapterVIIView: some View {
         
         VStack {
             
@@ -53,23 +60,43 @@ struct MainView: View {
             
             Button(action: {
                 
+                onButtonClick("Chapter 7")
+                
             }, label: {
                 
-                Button(action: {
-                   
-                    onButtonClick("Chapter 6")
-                    
-                }, label: {
-                    
-                    Text("Chapter 6")
-                        .font(.system(size: 20, design: .rounded))
-                })
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.purple)
-                .cornerRadius(10)
+                Text("Chapter 7")
+                    .font(.system(size: 20, design: .rounded))
+                
             })
-            
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.purple)
+            .cornerRadius(10)
+        }
+    }
+    
+    private var chapterVIView: some View {
+
+        VStack {
+
+            Spacer()
+                .frame(height: 10)
+
+            Button(action: {
+
+                onButtonClick("Chapter 6")
+                
+            }, label: {
+
+                Text("Chapter 6")
+                    .font(.system(size: 20, design: .rounded))
+                
+            })
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.purple)
+            .cornerRadius(10)
+
         }
     }
     
@@ -84,41 +111,33 @@ struct MainView: View {
                 
                 Button(action: {
                     
+                    onButtonClick("Chapter 4")
+                    
                 }, label: {
                     
-                    Button(action: {
-                       
-                        onButtonClick("Chapter 4")
-                        
-                    }, label: {
-                        
-                        Text("Chapter 4")
-                            .font(.system(size: 20, design: .rounded))
-                    })
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.purple)
-                    .cornerRadius(10)
+                    Text("Chapter 4")
+                        .font(.system(size: 20, design: .rounded))
+                    
                 })
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.purple)
+                .cornerRadius(10)
                 
                 Button(action: {
                     
+                    onButtonClick("Chapter 4 HW")
+                    
                 }, label: {
                     
-                    Button(action: {
-                       
-                        onButtonClick("Chapter 4 HW")
-                        
-                    }, label: {
-                        
-                        Text("Chapter 4 HW")
-                            .font(.system(size: 20, design: .rounded))
-                    })
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.purple)
-                    .cornerRadius(10)
+                    Text("Chapter 4 HW")
+                        .font(.system(size: 20, design: .rounded))
+                    
                 })
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.purple)
+                .cornerRadius(10)
             }
             
             
@@ -134,23 +153,18 @@ struct MainView: View {
             
             Button(action: {
                 
+                onButtonClick("Chapter 3")
+                
             }, label: {
                 
-                Button(action: {
-                   
-                    onButtonClick("Chapter 3")
-                    
-                }, label: {
-                    
-                    Text("Chapter 3")
-                        .font(.system(size: 20, design: .rounded))
-                })
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.purple)
-                .cornerRadius(10)
+                Text("Chapter 3")
+                    .font(.system(size: 20, design: .rounded))
+                
             })
-            
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.purple)
+            .cornerRadius(10)
         }
     }
 }

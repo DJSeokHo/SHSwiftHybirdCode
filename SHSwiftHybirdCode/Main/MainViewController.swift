@@ -45,6 +45,12 @@ class MainViewController: UIViewController {
                             
                             break
                             
+                        case "Chapter 7":
+                            
+                            RestaurantListViewController.start(viewController: self)
+                            
+                            break
+                            
                         default:
                             break
                         }
@@ -53,6 +59,13 @@ class MainViewController: UIViewController {
                 )
             )
         )
+    
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        RestaurantListViewController.start(viewController: self)
     }
     
     /*

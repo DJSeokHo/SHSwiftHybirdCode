@@ -28,6 +28,11 @@
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
 		04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F932882D3C8002F32D2 /* ChapterVIView.swift */; };
+		04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F9628893F9D002F32D2 /* RestaurantListViewController.swift */; };
+		04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F98288940FD002F32D2 /* RestaurantListView.swift */; };
+		04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F9B288942ED002F32D2 /* RestaurantModel.swift */; };
+		04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */; };
+		04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04688FA028894D87002F32D2 /* Nunito-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,11 @@
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
 		04688F932882D3C8002F32D2 /* ChapterVIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIView.swift; sourceTree = "<group>"; };
+		04688F9628893F9D002F32D2 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		04688F98288940FD002F32D2 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		04688F9B288942ED002F32D2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		04688FA028894D87002F32D2 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +183,7 @@
 		041DC81D28811A8A003970A3 /* SwiftUIInAction */ = {
 			isa = PBXGroup;
 			children = (
+				04688F9528893F83002F32D2 /* ChapterVII */,
 				04688F902882D396002F32D2 /* ChapterVI */,
 				041DC82C288148CB003970A3 /* ChapterIV */,
 				041DC81E28811AC8003970A3 /* ChapterIII */,
@@ -291,6 +302,42 @@
 			path = ChapterVI;
 			sourceTree = "<group>";
 		};
+		04688F9528893F83002F32D2 /* ChapterVII */ = {
+			isa = PBXGroup;
+			children = (
+				04688F9D28894D87002F32D2 /* Resources */,
+				04688F9A288942C9002F32D2 /* Model */,
+				04688F9628893F9D002F32D2 /* RestaurantListViewController.swift */,
+				04688F98288940FD002F32D2 /* RestaurantListView.swift */,
+			);
+			path = ChapterVII;
+			sourceTree = "<group>";
+		};
+		04688F9A288942C9002F32D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04688F9B288942ED002F32D2 /* RestaurantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04688F9D28894D87002F32D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04688F9E28894D87002F32D2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04688F9E28894D87002F32D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */,
+				04688FA028894D87002F32D2 /* Nunito-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -395,7 +442,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */,
 				041DC7F628811503003970A3 /* LaunchScreen.storyboard in Resources */,
+				04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */,
 				041DC7F328811503003970A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				041DC82028811AE4003970A3 /* ChapterIIIView.swift in Sources */,
 				041DC7EA28811502003970A3 /* AppDelegate.swift in Sources */,
 				04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */,
@@ -432,9 +482,11 @@
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
+				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
+				04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
 			);
