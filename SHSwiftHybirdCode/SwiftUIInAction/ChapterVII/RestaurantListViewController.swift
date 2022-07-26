@@ -18,7 +18,7 @@ class RestaurantListViewController: UIViewController {
         
     }
     
-    private let list = dummyData()
+    private var list = dummyData()
     
     override func viewDidLoad() {
         super.viewDidLoad()

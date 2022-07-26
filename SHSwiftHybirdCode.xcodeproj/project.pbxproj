@@ -33,6 +33,7 @@
 		04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F9B288942ED002F32D2 /* RestaurantModel.swift */; };
 		04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */; };
 		04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04688FA028894D87002F32D2 /* Nunito-Bold.ttf */; };
+		04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA4289027CD002F32D2 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		04688F9B288942ED002F32D2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
 		04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		04688FA028894D87002F32D2 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		04688FA4289027CD002F32D2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +307,7 @@
 		04688F9528893F83002F32D2 /* ChapterVII */ = {
 			isa = PBXGroup;
 			children = (
+				04688FA3289027B2002F32D2 /* ActivityView */,
 				04688F9D28894D87002F32D2 /* Resources */,
 				04688F9A288942C9002F32D2 /* Model */,
 				04688F9628893F9D002F32D2 /* RestaurantListViewController.swift */,
@@ -336,6 +339,14 @@
 				04688FA028894D87002F32D2 /* Nunito-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04688FA3289027B2002F32D2 /* ActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				04688FA4289027CD002F32D2 /* ActivityView.swift */,
+			);
+			path = ActivityView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,6 +494,7 @@
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
 				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
+				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
