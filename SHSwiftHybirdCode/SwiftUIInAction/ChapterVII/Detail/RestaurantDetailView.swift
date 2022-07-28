@@ -39,6 +39,12 @@ struct RestaurantDetailView: View {
                         location: restaurantModel.location,
                         phone: restaurantModel.phone
                     )
+                    
+                    MapView(location: restaurantModel.location)
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .frame(height: 200)
+                        .cornerRadius(20)
+                        .padding()
                 }
             }
             .ignoresSafeArea()

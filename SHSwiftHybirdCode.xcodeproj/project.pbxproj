@@ -36,6 +36,7 @@
 		04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA4289027CD002F32D2 /* ActivityView.swift */; };
 		04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */; };
 		04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */; };
+		04688FAE28927F98002F32D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FAD28927F98002F32D2 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		04688FA4289027CD002F32D2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		04688FAD28927F98002F32D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +313,7 @@
 		04688F9528893F83002F32D2 /* ChapterVII */ = {
 			isa = PBXGroup;
 			children = (
+				04688FAC28927F7D002F32D2 /* Map */,
 				04688FA62891787A002F32D2 /* Detail */,
 				04688FA3289027B2002F32D2 /* ActivityView */,
 				04688F9D28894D87002F32D2 /* Resources */,
@@ -361,6 +364,14 @@
 				04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		04688FAC28927F7D002F32D2 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				04688FAD28927F98002F32D2 /* MapView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +515,7 @@
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
+				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
