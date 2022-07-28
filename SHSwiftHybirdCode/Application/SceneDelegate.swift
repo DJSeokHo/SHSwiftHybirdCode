@@ -33,7 +33,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        window.rootViewController = hostingController
         
         let viewController = MainViewController()
+        viewController.modalPresentationStyle = .fullScreen
         window.rootViewController = viewController
+        
+//        let navigationController = UINavigationController(rootViewController: viewController)
+//        navigationController.modalPresentationStyle = .fullScreen
+//        window.rootViewController = navigationController
+        
         
         window.makeKeyAndVisible()
         self.window = window

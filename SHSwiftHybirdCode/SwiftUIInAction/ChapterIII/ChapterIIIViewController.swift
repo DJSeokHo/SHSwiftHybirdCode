@@ -12,27 +12,23 @@ class ChapterIIIViewController: UIViewController {
 
     static func start(viewController: UIViewController) {
         
-        let chapterIIIViewController = ChapterIIIViewController()
-        chapterIIIViewController.modalPresentationStyle = .fullScreen
-        viewController.present(chapterIIIViewController, animated: true, completion: nil)
-        
+        viewController.present(targetViewController: ChapterIIIViewController())
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setSwiftUIContent(contentView:
-                            UIHostingController(
-                                rootView: ChapterIIIView(
-                                    delegate: ChapterIIIDelegate(
-                                        onFinish: {
-                                            self.dismiss(animated: true)
-                                        }
-                                    )
-                                )
-                            )
-        )
+        setSwiftUI(anyViewWrapper: AnyView(
+            ChapterIIIView(
+                delegate: ChapterIIIDelegate(
+                    onFinish: {
+                        self.dismiss(animated: true)
+                    }
+                )
+            )
+        ))
+        
     }
     
 

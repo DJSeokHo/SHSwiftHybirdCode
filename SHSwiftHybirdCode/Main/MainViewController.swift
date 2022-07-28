@@ -14,9 +14,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setSwiftUIContent(
-            contentView: UIHostingController(
-                rootView: MainView(
+        setSwiftUI(anyViewWrapper: AnyView(MainView(
                     onButtonClick: { buttonContent in
                         
                         switch (buttonContent) {

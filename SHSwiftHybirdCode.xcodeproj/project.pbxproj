@@ -34,6 +34,8 @@
 		04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */; };
 		04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04688FA028894D87002F32D2 /* Nunito-Bold.ttf */; };
 		04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA4289027CD002F32D2 /* ActivityView.swift */; };
+		04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */; };
+		04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		04688F9F28894D87002F32D2 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		04688FA028894D87002F32D2 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		04688FA4289027CD002F32D2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +311,7 @@
 		04688F9528893F83002F32D2 /* ChapterVII */ = {
 			isa = PBXGroup;
 			children = (
+				04688FA62891787A002F32D2 /* Detail */,
 				04688FA3289027B2002F32D2 /* ActivityView */,
 				04688F9D28894D87002F32D2 /* Resources */,
 				04688F9A288942C9002F32D2 /* Model */,
@@ -347,6 +352,15 @@
 				04688FA4289027CD002F32D2 /* ActivityView.swift */,
 			);
 			path = ActivityView;
+			sourceTree = "<group>";
+		};
+		04688FA62891787A002F32D2 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */,
+				04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,6 +514,8 @@
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
 				04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
+				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
+				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

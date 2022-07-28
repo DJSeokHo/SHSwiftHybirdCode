@@ -12,10 +12,7 @@ class ChapterVIViewController: UIViewController {
 
     static func start(viewController: UIViewController) {
         
-        let chapterVIViewController = ChapterVIViewController()
-        chapterVIViewController.modalPresentationStyle = .fullScreen
-        viewController.present(chapterVIViewController, animated: true, completion: nil)
-        
+        viewController.present(targetViewController: ChapterVIViewController())
     }
     
     var restaurantNames = ["cafedeadend", "homei", "teakha", "cafeloisl", "petiteoyster", "forkee", "posatelier", "bourkestreetbakery", "haigh", "palomino", "upstate", "traif", "graham", "waffleandwolf", "fiveleaves", "cafelore", "confessional", "barrafina", "donostia", "royaloak", "cask"]
@@ -24,14 +21,17 @@ class ChapterVIViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setSwiftUIContent(contentView: UIHostingController(rootView: ChapterVIView(
-            delegate: ChapterVIDelegate(
-                onFinish: {
-                    self.dismiss(animated: true)
-                }
-            ),
-            restaurantNames: ["cafedeadend", "homei", "teakha", "cafeloisl", "petiteoyster", "forkee", "posatelier", "bourkestreetbakery", "haigh", "palomino", "upstate", "traif", "graham", "waffleandwolf", "fiveleaves", "cafelore", "confessional", "barrafina", "donostia", "royaloak", "cask"]
-        )))
+        setSwiftUI(anyViewWrapper: AnyView(
+            ChapterVIView(
+                delegate: ChapterVIDelegate(
+                    onFinish: {
+                        self.dismiss(animated: true)
+                    }
+                ),
+                restaurantNames: ["cafedeadend", "homei", "teakha", "cafeloisl", "petiteoyster", "forkee", "posatelier", "bourkestreetbakery", "haigh", "palomino", "upstate", "traif", "graham", "waffleandwolf", "fiveleaves", "cafelore", "confessional", "barrafina", "donostia", "royaloak", "cask"]
+            )
+        ))
+        
     }
     
 

@@ -11,28 +11,20 @@ import SwiftUI
 class ChapterIVViewController: UIViewController {
 
     static func start(viewController: UIViewController) {
-        
-        let chapterIVViewController = ChapterIVViewController()
-        chapterIVViewController.modalPresentationStyle = .fullScreen
-        viewController.present(chapterIVViewController, animated: true, completion: nil)
-        
+        viewController.present(targetViewController: ChapterIVViewController())
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setSwiftUIContent(
-            contentView: UIHostingController(
-                rootView: ChapterIVView(
-                    delegate: ChapterIVDelegate(
-                        onFinish: {
-                            self.dismiss(animated: true)
-                        }
-                    )
-                )
-            )
-        )
+        setSwiftUI(anyViewWrapper: AnyView(ChapterIVView(
+            delegate: ChapterIVDelegate(
+                onFinish: {
+                    self.dismiss(animated: true)
+                }
+            ))
+        ))
     }
     
 

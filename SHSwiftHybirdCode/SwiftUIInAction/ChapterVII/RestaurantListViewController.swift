@@ -11,24 +11,29 @@ import SwiftUI
 class RestaurantListViewController: UIViewController {
 
     static func start(viewController: UIViewController) {
-        
-        let restaurantListViewController = RestaurantListViewController()
-        restaurantListViewController.modalPresentationStyle = .fullScreen
-        viewController.present(restaurantListViewController, animated: true, completion: nil)
-        
+        viewController.present(targetViewController: RestaurantListViewController(), withNavigation: true)
     }
     
     private var list = dummyData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        hideNavigationBar()
+        
         // Do any additional setup after loading the view.
-        setSwiftUIContent(
-            contentView: UIHostingController(
-                rootView: RestaurantListView(restaurantModelList: list)
+        setSwiftUI(anyViewWrapper: AnyView(
+            RestaurantListView(
+                restaurantModelList: list,
+                delegate: RestaurantListDelegate(
+                    onItemClick: { restaurantModel in
+                        
+                        RestaurantDetailViewController.start(viewController: self, restaurantModel: restaurantModel)
+                        
+                    }
+                )
             )
-        )
+        ))
     }
     
 
