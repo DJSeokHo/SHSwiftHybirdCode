@@ -39,6 +39,7 @@
 		04688FAE28927F98002F32D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FAD28927F98002F32D2 /* MapView.swift */; };
 		04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */; };
 		04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */; };
+		04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD3428979C4C005F6F49 /* ReviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		04688FAD28927F98002F32D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapViewController.swift; sourceTree = "<group>"; };
 		04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapView.swift; sourceTree = "<group>"; };
+		04BAFD3428979C4C005F6F49 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +319,7 @@
 		04688F9528893F83002F32D2 /* ChapterVII */ = {
 			isa = PBXGroup;
 			children = (
+				04BAFD3128979C3A005F6F49 /* Review */,
 				04688FAC28927F7D002F32D2 /* Map */,
 				04688FA62891787A002F32D2 /* Detail */,
 				04688FA3289027B2002F32D2 /* ActivityView */,
@@ -386,6 +389,14 @@
 				04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */,
 			);
 			path = DetailFullMap;
+			sourceTree = "<group>";
+		};
+		04BAFD3128979C3A005F6F49 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				04BAFD3428979C4C005F6F49 /* ReviewView.swift */,
+			);
+			path = Review;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -529,6 +540,7 @@
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
+				04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */,
 				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
 				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,

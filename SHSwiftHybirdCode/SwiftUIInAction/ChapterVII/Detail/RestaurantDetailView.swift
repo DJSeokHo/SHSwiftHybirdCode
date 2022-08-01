@@ -20,6 +20,12 @@ struct RestaurantDetailView: View {
     
     var delegate: RestaurantDetailDelegate
     
+    @State
+    private var ratingState: Rating? = nil
+    
+    @State
+    private var showReviewState = false
+    
     var body: some View {
     
         NavigationView {
@@ -31,7 +37,9 @@ struct RestaurantDetailView: View {
                     ImageView(
                         image: restaurantModel.image,
                         name: restaurantModel.name,
-                        type: restaurantModel.type
+                        type: restaurantModel.type,
+                        ratingState: $ratingState,
+                        showReviewState: $showReviewState
                     )
                     
                     DescriptionView(description: restaurantModel.description)
@@ -49,6 +57,16 @@ struct RestaurantDetailView: View {
                         .onTapGesture {
                             delegate.onMapClick(restaurantModel)
                         }
+                    
+                    ReviewButtonView(
+                        onReview: {
+                            
+                            withAnimation(.easeIn(duration: 0.3)) {
+                                showReviewState = true
+                            }
+                           
+                        }
+                    )
                 }
             }
             .ignoresSafeArea()
@@ -79,7 +97,32 @@ struct RestaurantDetailView: View {
                     
                 }
             }
+            .overlay(
+                self.showReviewState ?
+                
+                    ZStack {
+                        ReviewView(delegate: ReviewDelegate(
+                            onCloseClick: { rating in
+                                
+                                self.restaurantModel.rating = rating
+                                
+                                self.ratingState = rating
+                                // MARK: SwiftUI 中要以動畫呈現狀態的變更只需要將狀態的變更包裹進去 withAnimation 程式塊中， withAnimation  帶入一個動畫參數。這裏我們指定使用 .easeOut 動畫，動畫時間設定為 0.3 秒。 SwiftUI  內建數種動畫，.easeOut 只是其中一項。
+                                withAnimation(.easeOut(duration: 0.3)) {
+                                    self.showReviewState = false
+                                }
+                                
+                            }
+                        ), image: restaurantModel.image)
+                        .navigationBarHidden(true)
+                    }
+                
+                : nil
+            )
         }
+        .onAppear(perform: {
+            ratingState = restaurantModel.rating
+        })
         
     }
 }
@@ -90,6 +133,12 @@ private struct ImageView: View {
     var image: String
     var name: String
     var type: String
+    
+    @Binding
+    var ratingState: Rating?
+    
+    @Binding
+    var showReviewState: Bool
     
     var body: some View {
         
@@ -113,6 +162,21 @@ private struct ImageView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
            
             InfoView(name: name, type: type)
+            
+            if let rating = ratingState, !showReviewState {
+                
+                ZStack {
+                    Image(rating.image)
+                        .resizable()
+                        .scaledToFill()
+                        .clipped()
+                        .frame(width: 60, height: 60, alignment: .bottomTrailing)
+                        .transition(.scale)
+                        .padding()
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                
+            }
         }
     }
 }
@@ -180,6 +244,32 @@ private struct DetailInfoView: View {
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
         }
         .padding(.horizontal)
+    }
+}
+
+private struct ReviewButtonView: View {
+    
+    var onReview: () -> Void
+    
+    var body: some View {
+        
+        Button(action: {
+            
+            onReview()
+            
+        }, label: {
+            
+            Text("Rate it")
+                .font(.system(.headline, design: .rounded))
+                .frame(minWidth: 0, maxWidth: .infinity)
+            
+        })
+        .tint(Color("NavigationBarTitle"))
+        .buttonStyle(.borderedProminent)
+        .buttonBorderShape(.roundedRectangle(radius: 25))
+        .controlSize(.large)
+        .padding(.horizontal)
+        .padding(.bottom, 30)
     }
 }
 
