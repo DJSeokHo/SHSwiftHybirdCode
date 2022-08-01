@@ -37,6 +37,9 @@ class RestaurantDetailViewController: UIViewController {
                 delegate: RestaurantDetailDelegate(
                     onBackClick: {
                         self.pop()
+                    },
+                    onMapClick: { restaurantModel in
+                        DetailFullMapViewController.start(viewController: self, name: restaurantModel.name, location: restaurantModel.location)
                     }
                 )
             )

@@ -37,6 +37,8 @@
 		04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */; };
 		04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */; };
 		04688FAE28927F98002F32D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FAD28927F98002F32D2 /* MapView.swift */; };
+		04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */; };
+		04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		04688FAD28927F98002F32D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapViewController.swift; sourceTree = "<group>"; };
+		04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +364,7 @@
 		04688FA62891787A002F32D2 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				04BAFD2C28979560005F6F49 /* DetailFullMap */,
 				04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */,
 				04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */,
 			);
@@ -372,6 +377,15 @@
 				04688FAD28927F98002F32D2 /* MapView.swift */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		04BAFD2C28979560005F6F49 /* DetailFullMap */ = {
+			isa = PBXGroup;
+			children = (
+				04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */,
+				04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */,
+			);
+			path = DetailFullMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,10 +529,12 @@
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
+				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
 				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
+				04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */,
 				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,

@@ -10,6 +10,7 @@ import SwiftUI
 struct RestaurantDetailDelegate {
     
     var onBackClick: () -> Void
+    var onMapClick: (_ restaurantModel: RestaurantModel) -> Void
     
 }
 
@@ -45,6 +46,9 @@ struct RestaurantDetailView: View {
                         .frame(height: 200)
                         .cornerRadius(20)
                         .padding()
+                        .onTapGesture {
+                            delegate.onMapClick(restaurantModel)
+                        }
                 }
             }
             .ignoresSafeArea()
@@ -62,11 +66,11 @@ struct RestaurantDetailView: View {
                         HStack(alignment: .center, spacing: 6) {
                             
                             Image(systemName: "chevron.left")
-                                .foregroundColor(.white)
+                                .foregroundColor(.black)
                             
                             Text(restaurantModel.name)
                                 .font(.system(.headline, design: .rounded))
-                                .foregroundColor(.white)
+                                .foregroundColor(.black)
                                 .fontWeight(.bold)
                             
                         }
@@ -182,16 +186,16 @@ private struct DetailInfoView: View {
 struct RestaurantDetailView_Previews: PreviewProvider {
     static var previews: some View {
      
-        RestaurantDetailView(restaurantModel: RestaurantModel(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: false), delegate: RestaurantDetailDelegate(onBackClick: {}))
+        RestaurantDetailView(restaurantModel: RestaurantModel(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: false), delegate: RestaurantDetailDelegate(onBackClick: {}, onMapClick: { restaurantModel in }))
             .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro Max"))
             .previewDisplayName("iPhone 13 Pro Max")
         
-        RestaurantDetailView(restaurantModel: RestaurantModel(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: false), delegate: RestaurantDetailDelegate(onBackClick: {}))
+        RestaurantDetailView(restaurantModel: RestaurantModel(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: false), delegate: RestaurantDetailDelegate(onBackClick: {}, onMapClick: { restaurantModel in }))
             .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro Max"))
             .previewDisplayName("iPhone 13 Pro Max")
             .preferredColorScheme(.dark)
         
-        RestaurantDetailView(restaurantModel: RestaurantModel(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: false), delegate: RestaurantDetailDelegate(onBackClick: {}))
+        RestaurantDetailView(restaurantModel: RestaurantModel(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: false), delegate: RestaurantDetailDelegate(onBackClick: {}, onMapClick: { restaurantModel in }))
             .previewDevice(PreviewDevice(rawValue: "iPad Air (5th generation)"))
             .previewDisplayName("iPad Air (5th generation)")
     }
