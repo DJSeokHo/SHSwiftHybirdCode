@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041495B328B37B16005AA3FC /* DeviceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041495B228B37B16005AA3FC /* DeviceUtility.swift */; };
 		041DC7EA28811502003970A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC7E928811502003970A3 /* AppDelegate.swift */; };
 		041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC7EB28811502003970A3 /* SceneDelegate.swift */; };
 		041DC7F328811503003970A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DC7F228811503003970A3 /* Assets.xcassets */; };
@@ -37,6 +38,9 @@
 		04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */; };
 		04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */; };
 		04688FAE28927F98002F32D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FAD28927F98002F32D2 /* MapView.swift */; };
+		04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */; };
+		04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559D28B476F40031EEE6 /* ChapterXXView.swift */; };
+		04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */; };
 		04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */; };
 		04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */; };
 		04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD3428979C4C005F6F49 /* ReviewView.swift */; };
@@ -60,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041495B228B37B16005AA3FC /* DeviceUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtility.swift; sourceTree = "<group>"; };
 		041DC7E628811502003970A3 /* SHSwiftHybirdCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHSwiftHybirdCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041DC7E928811502003970A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041DC7EB28811502003970A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +99,9 @@
 		04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		04688FAD28927F98002F32D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXViewController.swift; sourceTree = "<group>"; };
+		04B5559D28B476F40031EEE6 /* ChapterXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXView.swift; sourceTree = "<group>"; };
+		04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAbleButtonViewController.swift; sourceTree = "<group>"; };
 		04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapViewController.swift; sourceTree = "<group>"; };
 		04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapView.swift; sourceTree = "<group>"; };
 		04BAFD3428979C4C005F6F49 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
@@ -124,6 +132,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041495B028B37AFF005AA3FC /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				041495B228B37B16005AA3FC /* DeviceUtility.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
 		041DC7DD28811502003970A3 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +163,7 @@
 		041DC7E828811502003970A3 /* SHSwiftHybirdCode */ = {
 			isa = PBXGroup;
 			children = (
+				04B555B528B5B1C90031EEE6 /* Examples */,
 				041DC83128815DF0003970A3 /* Common */,
 				041DC82528813AD1003970A3 /* Framework */,
 				041DC81D28811A8A003970A3 /* SwiftUIInAction */,
@@ -197,6 +214,7 @@
 		041DC81D28811A8A003970A3 /* SwiftUIInAction */ = {
 			isa = PBXGroup;
 			children = (
+				04B5559A28B476C00031EEE6 /* ChapterXX */,
 				04688F9528893F83002F32D2 /* ChapterVII */,
 				04688F902882D396002F32D2 /* ChapterVI */,
 				041DC82C288148CB003970A3 /* ChapterIV */,
@@ -276,6 +294,7 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				041495B028B37AFF005AA3FC /* Device */,
 				041DC83728815F32003970A3 /* Debug */,
 			);
 			path = Utility;
@@ -380,6 +399,31 @@
 				04688FAD28927F98002F32D2 /* MapView.swift */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		04B5559A28B476C00031EEE6 /* ChapterXX */ = {
+			isa = PBXGroup;
+			children = (
+				04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */,
+				04B5559D28B476F40031EEE6 /* ChapterXXView.swift */,
+			);
+			path = ChapterXX;
+			sourceTree = "<group>";
+		};
+		04B555B528B5B1C90031EEE6 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				04B555B628B5B1D00031EEE6 /* PressAbleButton */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		04B555B628B5B1D00031EEE6 /* PressAbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */,
+			);
+			path = PressAbleButton;
 			sourceTree = "<group>";
 		};
 		04BAFD2C28979560005F6F49 /* DetailFullMap */ = {
@@ -551,11 +595,15 @@
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
+				04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
+				041495B328B37B16005AA3FC /* DeviceUtility.swift in Sources */,
 				04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */,
+				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
 				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
+				04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

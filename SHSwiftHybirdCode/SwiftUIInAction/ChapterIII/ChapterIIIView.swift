@@ -19,22 +19,30 @@ struct ChapterIIIView: View {
     
     var delegate: ChapterIIIDelegate
     
+    let isNotchScreen = DeviceUtility.isNotchScreen()
+    
     var body: some View {
         
         ZStack(alignment: .top, content: {
             
-            Color
-                .black
+            Color("#999999")
             
             VStack {
                 
-                Spacer()
-                    .frame(height: 50)
+                if isNotchScreen {
+                    Spacer()
+                        .frame(height: 40)
+                }
+                else {
+                    Spacer()
+                        .frame(height: 20)
+                }
+               
                 
                 TopAppBarView(
                     trailingImageName: "xmark",
                     trailingColor: "#FFFFFF",
-                    backgroundColor: "#000000",
+                    backgroundColor: "#999999",
                     onTrailingClick: {
                         delegate.onFinish()
                     }
@@ -121,7 +129,7 @@ private struct HeartView: View {
             .font(.system(size: 200))
             .foregroundColor(colorChange ? .yellow : .red)
             .scaleEffect(sizeChange ? 1.5 : 1)
-            .animation(.default)
+            .animation(Animation.easeInOut(duration: 0.5), value: sizeChange)
             .onTapGesture {
                 self.colorChange.toggle()
             }
@@ -143,6 +151,7 @@ struct ChapterIIIView_Previews: PreviewProvider {
                 }
             )
         )
+        .previewDevice("iPhone SE (3rd generation)")
         
     }
 }

@@ -1,37 +1,26 @@
 //
-//  ChapterIIIViewController.swift
+//  ChapterXXViewController.swift
 //  SHSwiftHybirdCode
 //
-//  Created by mac on 2022/07/15.
+//  Created by mac on 2022/08/23.
 //
 
 import UIKit
 import SwiftUI
 
-class ChapterIIIViewController: UIViewController {
+class ChapterXXViewController: UIViewController {
 
     static func start(viewController: UIViewController) {
-    
-        viewController.present(targetViewController: ChapterIIIViewController())
-        
+        viewController.present(targetViewController: ChapterXXViewController())
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        ILog.debug(tag: #file, content: DeviceUtility.isNotchScreen())
-        
-        hideNavigationBar()
 
         // Do any additional setup after loading the view.
+        
         setSwiftUI(anyViewWrapper: AnyView(
-            ChapterIIIView(
-                delegate: ChapterIIIDelegate(
-                    onFinish: {
-                        self.dismiss(animated: true)
-                    }
-                )
-            )
+            ChapterXXView()
         ))
         
     }

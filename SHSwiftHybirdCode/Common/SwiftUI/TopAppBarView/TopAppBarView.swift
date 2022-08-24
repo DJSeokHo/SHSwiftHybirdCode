@@ -35,7 +35,7 @@ struct TopAppBarView: View {
                     
                     Image(systemName: leadingImageName)
                         .resizable()
-                        .frame(width: 30, height: 30, alignment: .center)
+                        .frame(width: 23, height: 23, alignment: .center)
                         .padding(.leading, 16)
                         .foregroundColor(Color(hex: loadingColor))
                 })
@@ -63,7 +63,7 @@ struct TopAppBarView: View {
                     
                     Image(systemName: trailingImageName)
                         .resizable()
-                        .frame(width: 30, height: 30, alignment: .center)
+                        .frame(width: 23, height: 23, alignment: .center)
                         .padding(.trailing, 16)
                         .foregroundColor(Color(hex: trailingColor))
                 })
@@ -76,6 +76,11 @@ struct TopAppBarView: View {
 
 struct TopAppBarView_Previews: PreviewProvider {
     static var previews: some View {
+        
         TopAppBarView()
+            .preferredColorScheme(.dark)
+        
+        TopAppBarView()
+            .preferredColorScheme(.dark)
     }
 }

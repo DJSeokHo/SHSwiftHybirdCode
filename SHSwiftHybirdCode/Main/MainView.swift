@@ -38,7 +38,7 @@ struct MainView: View {
                 chapterVIView
                     .listRowBackground(Color.black)
                 
-                chapterVIIView
+                chapterXXView
                     .listRowBackground(Color.black)
                 
                 Spacer()
@@ -49,6 +49,30 @@ struct MainView: View {
         .listStyle(.plain)
         .ignoresSafeArea()
         
+    }
+    
+    private var chapterXXView: some View {
+        
+        VStack {
+            
+            Spacer()
+                .frame(height: 10)
+            
+            Button(action: {
+                
+                onButtonClick("Chapter 20")
+                
+            }, label: {
+                
+                Text("Chapter 20")
+                    .font(.system(size: 20, design: .rounded))
+                
+            })
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.purple)
+            .cornerRadius(10)
+        }
     }
     
     private var chapterVIIView: some View {
