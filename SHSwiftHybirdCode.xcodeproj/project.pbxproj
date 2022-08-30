@@ -25,6 +25,9 @@
 		041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83428815E14003970A3 /* TopAppBarView.swift */; };
 		041DC83928815F3D003970A3 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83828815F3D003970A3 /* Debug.swift */; };
 		041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83C28815FDD003970A3 /* ColorExtension.swift */; };
+		042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */; };
+		042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */; };
+		042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -41,6 +44,17 @@
 		04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */; };
 		04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559D28B476F40031EEE6 /* ChapterXXView.swift */; };
 		04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */; };
+		04B555C428B5FA330031EEE6 /* FoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555C328B5FA330031EEE6 /* FoundationViewController.swift */; };
+		04B555C728B5FA820031EEE6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555C628B5FA820031EEE6 /* TextFieldView.swift */; };
+		04B555C928B5FF350031EEE6 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555C828B5FF350031EEE6 /* ViewExtension.swift */; };
+		04B555E028BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555DF28BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift */; };
+		04B555F728BCB1730031EEE6 /* StateExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555F628BCB1720031EEE6 /* StateExampleViewController.swift */; };
+		04B555F928BCB28F0031EEE6 /* BindingExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555F828BCB28F0031EEE6 /* BindingExampleViewController.swift */; };
+		04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555FA28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift */; };
+		04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555FC28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift */; };
+		04B555FF28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555FE28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift */; };
+		04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5560228BCF4190031EEE6 /* SingletonExample.swift */; };
+		04B5560628BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5560528BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift */; };
 		04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */; };
 		04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */; };
 		04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD3428979C4C005F6F49 /* ReviewView.swift */; };
@@ -86,6 +100,9 @@
 		041DC83428815E14003970A3 /* TopAppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppBarView.swift; sourceTree = "<group>"; };
 		041DC83828815F3D003970A3 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		041DC83C28815FDD003970A3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentHomeViewController.swift; sourceTree = "<group>"; };
+		042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentFavoriteViewController.swift; sourceTree = "<group>"; };
+		042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentProfileViewController.swift; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +119,17 @@
 		04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXViewController.swift; sourceTree = "<group>"; };
 		04B5559D28B476F40031EEE6 /* ChapterXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXView.swift; sourceTree = "<group>"; };
 		04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAbleButtonViewController.swift; sourceTree = "<group>"; };
+		04B555C328B5FA330031EEE6 /* FoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationViewController.swift; sourceTree = "<group>"; };
+		04B555C628B5FA820031EEE6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		04B555C828B5FF350031EEE6 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		04B555DF28BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodeDecodeViewController.swift; sourceTree = "<group>"; };
+		04B555F628BCB1720031EEE6 /* StateExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleViewController.swift; sourceTree = "<group>"; };
+		04B555F828BCB28F0031EEE6 /* BindingExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExampleViewController.swift; sourceTree = "<group>"; };
+		04B555FA28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExampleAViewController.swift; sourceTree = "<group>"; };
+		04B555FC28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExampleBViewController.swift; sourceTree = "<group>"; };
+		04B555FE28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExampleModel.swift; sourceTree = "<group>"; };
+		04B5560228BCF4190031EEE6 /* SingletonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonExample.swift; sourceTree = "<group>"; };
+		04B5560528BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationExampleViewController.swift; sourceTree = "<group>"; };
 		04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapViewController.swift; sourceTree = "<group>"; };
 		04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapView.swift; sourceTree = "<group>"; };
 		04BAFD3428979C4C005F6F49 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
@@ -245,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				041DC83C28815FDD003970A3 /* ColorExtension.swift */,
+				04B555C828B5FF350031EEE6 /* ViewExtension.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -413,6 +442,11 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				04B5560428BD9B410031EEE6 /* BottomNavigation */,
+				04B5560128BCF4020031EEE6 /* Singleton */,
+				04B555F228BCB10A0031EEE6 /* PropertiesWrapper */,
+				04B555DE28BC99A60031EEE6 /* JSONEncodeDecode */,
+				04B555C128B5F9FB0031EEE6 /* Foundation */,
 				04B555B628B5B1D00031EEE6 /* PressAbleButton */,
 			);
 			path = Examples;
@@ -424,6 +458,94 @@
 				04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */,
 			);
 			path = PressAbleButton;
+			sourceTree = "<group>";
+		};
+		04B555C128B5F9FB0031EEE6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				04B555C528B5FA750031EEE6 /* TextField */,
+				04B555C328B5FA330031EEE6 /* FoundationViewController.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		04B555C528B5FA750031EEE6 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				04B555C628B5FA820031EEE6 /* TextFieldView.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		04B555DE28BC99A60031EEE6 /* JSONEncodeDecode */ = {
+			isa = PBXGroup;
+			children = (
+				04B555DF28BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift */,
+			);
+			path = JSONEncodeDecode;
+			sourceTree = "<group>";
+		};
+		04B555F228BCB10A0031EEE6 /* PropertiesWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				04B555F528BCB1610031EEE6 /* BindingExample */,
+				04B555F428BCB11A0031EEE6 /* EnvironmentObjectExample */,
+				04B555F328BCB1120031EEE6 /* StateExample */,
+			);
+			path = PropertiesWrapper;
+			sourceTree = "<group>";
+		};
+		04B555F328BCB1120031EEE6 /* StateExample */ = {
+			isa = PBXGroup;
+			children = (
+				04B555F628BCB1720031EEE6 /* StateExampleViewController.swift */,
+			);
+			path = StateExample;
+			sourceTree = "<group>";
+		};
+		04B555F428BCB11A0031EEE6 /* EnvironmentObjectExample */ = {
+			isa = PBXGroup;
+			children = (
+				04B555FA28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift */,
+				04B555FC28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift */,
+				04B555FE28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift */,
+			);
+			path = EnvironmentObjectExample;
+			sourceTree = "<group>";
+		};
+		04B555F528BCB1610031EEE6 /* BindingExample */ = {
+			isa = PBXGroup;
+			children = (
+				04B555F828BCB28F0031EEE6 /* BindingExampleViewController.swift */,
+			);
+			path = BindingExample;
+			sourceTree = "<group>";
+		};
+		04B5560128BCF4020031EEE6 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				04B5560228BCF4190031EEE6 /* SingletonExample.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		04B5560428BD9B410031EEE6 /* BottomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				04B5560728BD9E240031EEE6 /* SubContents */,
+				04B5560528BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift */,
+			);
+			path = BottomNavigation;
+			sourceTree = "<group>";
+		};
+		04B5560728BD9E240031EEE6 /* SubContents */ = {
+			isa = PBXGroup;
+			children = (
+				042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */,
+				042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */,
+				042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */,
+			);
+			path = SubContents;
 			sourceTree = "<group>";
 		};
 		04BAFD2C28979560005F6F49 /* DetailFullMap */ = {
@@ -575,12 +697,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
+				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
 				041DC82028811AE4003970A3 /* ChapterIIIView.swift in Sources */,
 				041DC7EA28811502003970A3 /* AppDelegate.swift in Sources */,
 				04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */,
 				041DC83928815F3D003970A3 /* Debug.swift in Sources */,
+				04B555C428B5FA330031EEE6 /* FoundationViewController.swift in Sources */,
 				041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */,
+				042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */,
+				04B555F728BCB1730031EEE6 /* StateExampleViewController.swift in Sources */,
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
@@ -592,18 +719,27 @@
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
 				04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */,
 				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
+				04B555F928BCB28F0031EEE6 /* BindingExampleViewController.swift in Sources */,
+				04B555FF28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift in Sources */,
+				04B555C728B5FA820031EEE6 /* TextFieldView.swift in Sources */,
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
+				042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
 				04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
+				04B555C928B5FF350031EEE6 /* ViewExtension.swift in Sources */,
 				041495B328B37B16005AA3FC /* DeviceUtility.swift in Sources */,
 				04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */,
 				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
+				04B5560628BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
+				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
+				04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */,
 				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
 				04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */,
+				04B555E028BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

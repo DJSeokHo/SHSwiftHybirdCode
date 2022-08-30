@@ -37,6 +37,7 @@ extension UIViewController {
         let viewController = UIHostingController(rootView: anyViewWrapper)
         addChild(viewController)
         view.addSubview(viewController.view)
+        viewController.didMove(toParent: self)
         
         viewController.view.translatesAutoresizingMaskIntoConstraints = false
         viewController.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true

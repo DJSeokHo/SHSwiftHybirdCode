@@ -70,6 +70,12 @@ class MainViewController: UIViewController {
 //        ChapterXXViewController.start(viewController: self)
 //        PressAbleButtonViewController.start(viewController: self)
         
+//        JSONEncodeDecodeViewController.start(viewController: self)
+//        FoundationViewController.start(viewController: self)
+//        StateExampleViewController.start(viewController: self)
+//        BindingExampleViewController.start(viewController: self)
+//        EnvironmentObjectExampleAViewController.start(viewController: self)
+        BottomNavigationExampleViewController.start(viewController: self)
     }
     
     /*
