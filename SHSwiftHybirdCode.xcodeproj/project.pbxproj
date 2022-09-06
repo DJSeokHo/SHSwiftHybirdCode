@@ -32,6 +32,11 @@
 		042A7D9328C5DEF900F6A8E1 /* MVVMExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D9228C5DEF900F6A8E1 /* MVVMExampleViewModel.swift */; };
 		042A7D9528C5DF0800F6A8E1 /* MVVMExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D9428C5DF0800F6A8E1 /* MVVMExampleView.swift */; };
 		042A7D9728C6311800F6A8E1 /* MVVMExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D9628C6311800F6A8E1 /* MVVMExampleModel.swift */; };
+		04383B5C28C709ED00989D2E /* SubContentFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B5B28C709ED00989D2E /* SubContentFavoriteView.swift */; };
+		04383B5F28C71A5000989D2E /* CustomCameraExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B5E28C71A5000989D2E /* CustomCameraExampleViewController.swift */; };
+		04383B6128C71E6100989D2E /* CustomCameraExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */; };
+		04383B6328C72E4100989D2E /* CustomCameraExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */; };
+		04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6528C7407000989D2E /* ThreadUtility.swift */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -111,6 +116,11 @@
 		042A7D9228C5DEF900F6A8E1 /* MVVMExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleViewModel.swift; sourceTree = "<group>"; };
 		042A7D9428C5DF0800F6A8E1 /* MVVMExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleView.swift; sourceTree = "<group>"; };
 		042A7D9628C6311800F6A8E1 /* MVVMExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleModel.swift; sourceTree = "<group>"; };
+		04383B5B28C709ED00989D2E /* SubContentFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentFavoriteView.swift; sourceTree = "<group>"; };
+		04383B5E28C71A5000989D2E /* CustomCameraExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleViewController.swift; sourceTree = "<group>"; };
+		04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleView.swift; sourceTree = "<group>"; };
+		04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleViewModel.swift; sourceTree = "<group>"; };
+		04383B6528C7407000989D2E /* ThreadUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadUtility.swift; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -331,6 +341,7 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				04383B6428C7406800989D2E /* Thread */,
 				041495B028B37AFF005AA3FC /* Device */,
 				041DC83728815F32003970A3 /* Debug */,
 			);
@@ -354,6 +365,32 @@
 				042A7D9628C6311800F6A8E1 /* MVVMExampleModel.swift */,
 			);
 			path = MVVMExample;
+			sourceTree = "<group>";
+		};
+		04383B5A28C709E000989D2E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04383B5B28C709ED00989D2E /* SubContentFavoriteView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04383B5D28C71A2900989D2E /* CustomCamera */ = {
+			isa = PBXGroup;
+			children = (
+				04383B5E28C71A5000989D2E /* CustomCameraExampleViewController.swift */,
+				04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */,
+				04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */,
+			);
+			path = CustomCamera;
+			sourceTree = "<group>";
+		};
+		04383B6428C7406800989D2E /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				04383B6528C7407000989D2E /* ThreadUtility.swift */,
+			);
+			path = Thread;
 			sourceTree = "<group>";
 		};
 		04688F8A28827C19002F32D2 /* Tutorial */ = {
@@ -461,6 +498,7 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				04383B5D28C71A2900989D2E /* CustomCamera */,
 				042A7D8F28C5DECD00F6A8E1 /* MVVMExample */,
 				04B5560428BD9B410031EEE6 /* BottomNavigation */,
 				04B5560128BCF4020031EEE6 /* Singleton */,
@@ -552,6 +590,7 @@
 		04B5560428BD9B410031EEE6 /* BottomNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				04383B5A28C709E000989D2E /* ViewModel */,
 				04B5560728BD9E240031EEE6 /* SubContents */,
 				04B5560528BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift */,
 			);
@@ -718,6 +757,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
+				04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */,
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
 				041DC82028811AE4003970A3 /* ChapterIIIView.swift in Sources */,
@@ -733,6 +773,7 @@
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
 				04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */,
+				04383B6128C71E6100989D2E /* CustomCameraExampleView.swift in Sources */,
 				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
 				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
@@ -741,6 +782,7 @@
 				04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */,
 				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
 				04B555F928BCB28F0031EEE6 /* BindingExampleViewController.swift in Sources */,
+				04383B6328C72E4100989D2E /* CustomCameraExampleViewModel.swift in Sources */,
 				042A7D9328C5DEF900F6A8E1 /* MVVMExampleViewModel.swift in Sources */,
 				04B555FF28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift in Sources */,
 				04B555C728B5FA820031EEE6 /* TextFieldView.swift in Sources */,
@@ -752,6 +794,7 @@
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
 				04B555C928B5FF350031EEE6 /* ViewExtension.swift in Sources */,
 				041495B328B37B16005AA3FC /* DeviceUtility.swift in Sources */,
+				04383B5C28C709ED00989D2E /* SubContentFavoriteView.swift in Sources */,
 				042A7D9128C5DEF100F6A8E1 /* MVVMExampleViewController.swift in Sources */,
 				04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */,
 				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
@@ -761,6 +804,7 @@
 				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
 				04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */,
 				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
+				04383B5F28C71A5000989D2E /* CustomCameraExampleViewController.swift in Sources */,
 				04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */,
 				04B555E028BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
@@ -936,6 +980,8 @@
 				DEVELOPMENT_TEAM = DU98VK6D82;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SHSwiftHybirdCode/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app will use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app will use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -964,6 +1010,8 @@
 				DEVELOPMENT_TEAM = DU98VK6D82;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SHSwiftHybirdCode/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app will use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app will use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

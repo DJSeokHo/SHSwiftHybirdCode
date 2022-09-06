@@ -54,8 +54,7 @@ private struct ContentView: View {
     @State
     private var seletedTab: Int = 0
     
-    @State
-    private var count: Int = 0
+    private let subContentFavoriteViewModel = SubContentFavoriteViewModel()
     
     var body: some View {
         
@@ -69,13 +68,9 @@ private struct ContentView: View {
                 
                 ContainerView(
                     seletedTab: $seletedTab,
-                    count: $count,
-                    onPlus: {
-                        count += 1
-                    },
                     subContentHomeViewController: subContentHomeViewController,
                     subContentFavoriteViewController: subContentFavoriteViewController,
-                    subContentProfileViewController: subContentProfileViewController
+                    subContentProfileViewController: subContentProfileViewController, subContentFavoriteViewModel: subContentFavoriteViewModel
                 )
                 
                 BottomNavigationView(
@@ -105,14 +100,11 @@ private struct ContainerView: View {
     @Binding
     var seletedTab: Int
     
-    @Binding
-    var count: Int
-    
-    var onPlus: () -> Void
-    
     var subContentHomeViewController: SubContentHomeViewController
     var subContentFavoriteViewController: SubContentFavoriteViewController
     var subContentProfileViewController: SubContentProfileViewController
+    
+    var subContentFavoriteViewModel: SubContentFavoriteViewModel
     
     var body: some View {
         
@@ -120,7 +112,7 @@ private struct ContainerView: View {
      
         case 1:
         
-            SubContentFavoriteViewControllerSwiftUI(count: $count, onPlus: onPlus, subContentFavoriteViewController: subContentFavoriteViewController)
+            SubContentFavoriteViewControllerSwiftUI(subContentFavoriteViewController: subContentFavoriteViewController, viewModel: subContentFavoriteViewModel)
             
         case 2:
             

@@ -76,8 +76,9 @@ class MainViewController: UIViewController {
 //        BindingExampleViewController.start(viewController: self)
 //        EnvironmentObjectExampleAViewController.start(viewController: self)
         
-        MVVMExampleViewController.start(viewController: self)
+//        MVVMExampleViewController.start(viewController: self)
 //        BottomNavigationExampleViewController.start(viewController: self)
+        CustomCameraExampleViewController.start(viewController: self)
     }
     
     /*
