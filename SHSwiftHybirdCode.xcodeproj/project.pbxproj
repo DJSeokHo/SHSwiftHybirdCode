@@ -37,6 +37,12 @@
 		04383B6128C71E6100989D2E /* CustomCameraExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */; };
 		04383B6328C72E4100989D2E /* CustomCameraExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */; };
 		04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6528C7407000989D2E /* ThreadUtility.swift */; };
+		04383B6928C88EC500989D2E /* CVRCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6828C88EC500989D2E /* CVRCameraViewController.swift */; };
+		04383B6B28C88F1000989D2E /* CVRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6A28C88F1000989D2E /* CVRCameraView.swift */; };
+		04383B6D28C88F1B00989D2E /* CVRCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6C28C88F1B00989D2E /* CVRCameraViewModel.swift */; };
+		04383B7028C8903100989D2E /* CVRPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6F28C8903100989D2E /* CVRPreviewViewController.swift */; };
+		04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B7128C8903900989D2E /* CVRPreviewView.swift */; };
+		04383B7428C8904200989D2E /* CVRPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B7328C8904200989D2E /* CVRPreviewViewModel.swift */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -50,6 +56,15 @@
 		04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */; };
 		04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */; };
 		04688FAE28927F98002F32D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FAD28927F98002F32D2 /* MapView.swift */; };
+		04A8288328D0B2EA00D92AAC /* ImageSimilarityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288228D0B2EA00D92AAC /* ImageSimilarityViewController.swift */; };
+		04A8288728D0B3BF00D92AAC /* SwiftUIBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */; };
+		04A8288928D0B3C800D92AAC /* SwiftUIBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288828D0B3C800D92AAC /* SwiftUIBasicView.swift */; };
+		04A8288B28D0B42A00D92AAC /* ZStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288A28D0B42A00D92AAC /* ZStackExampleView.swift */; };
+		04A8288E28D0B59B00D92AAC /* ScrollExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288D28D0B59B00D92AAC /* ScrollExample.swift */; };
+		04A8289128D0B65B00D92AAC /* VStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8289028D0B65B00D92AAC /* VStackExample.swift */; };
+		04A8289428D0B8BB00D92AAC /* SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8289328D0B8BB00D92AAC /* SpacerExample.swift */; };
+		04A8289728D0B96400D92AAC /* HStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8289628D0B96400D92AAC /* HStackExample.swift */; };
+		04A8289C28D0BC7F00D92AAC /* ScrollViewReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8289B28D0BC7F00D92AAC /* ScrollViewReaderExample.swift */; };
 		04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */; };
 		04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559D28B476F40031EEE6 /* ChapterXXView.swift */; };
 		04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */; };
@@ -121,6 +136,12 @@
 		04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleView.swift; sourceTree = "<group>"; };
 		04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleViewModel.swift; sourceTree = "<group>"; };
 		04383B6528C7407000989D2E /* ThreadUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadUtility.swift; sourceTree = "<group>"; };
+		04383B6828C88EC500989D2E /* CVRCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRCameraViewController.swift; sourceTree = "<group>"; };
+		04383B6A28C88F1000989D2E /* CVRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRCameraView.swift; sourceTree = "<group>"; };
+		04383B6C28C88F1B00989D2E /* CVRCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRCameraViewModel.swift; sourceTree = "<group>"; };
+		04383B6F28C8903100989D2E /* CVRPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRPreviewViewController.swift; sourceTree = "<group>"; };
+		04383B7128C8903900989D2E /* CVRPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRPreviewView.swift; sourceTree = "<group>"; };
+		04383B7328C8904200989D2E /* CVRPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRPreviewViewModel.swift; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +155,15 @@
 		04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		04688FAD28927F98002F32D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04A8288228D0B2EA00D92AAC /* ImageSimilarityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSimilarityViewController.swift; sourceTree = "<group>"; };
+		04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicViewController.swift; sourceTree = "<group>"; };
+		04A8288828D0B3C800D92AAC /* SwiftUIBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicView.swift; sourceTree = "<group>"; };
+		04A8288A28D0B42A00D92AAC /* ZStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExampleView.swift; sourceTree = "<group>"; };
+		04A8288D28D0B59B00D92AAC /* ScrollExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollExample.swift; sourceTree = "<group>"; };
+		04A8289028D0B65B00D92AAC /* VStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExample.swift; sourceTree = "<group>"; };
+		04A8289328D0B8BB00D92AAC /* SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExample.swift; sourceTree = "<group>"; };
+		04A8289628D0B96400D92AAC /* HStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExample.swift; sourceTree = "<group>"; };
+		04A8289B28D0BC7F00D92AAC /* ScrollViewReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample.swift; sourceTree = "<group>"; };
 		04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXViewController.swift; sourceTree = "<group>"; };
 		04B5559D28B476F40031EEE6 /* ChapterXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXView.swift; sourceTree = "<group>"; };
 		04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAbleButtonViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +239,7 @@
 		041DC7E828811502003970A3 /* SHSwiftHybirdCode */ = {
 			isa = PBXGroup;
 			children = (
+				04A8288428D0B39000D92AAC /* SwiftUIBasic */,
 				04B555B528B5B1C90031EEE6 /* Examples */,
 				041DC83128815DF0003970A3 /* Common */,
 				041DC82528813AD1003970A3 /* Framework */,
@@ -393,6 +424,27 @@
 			path = Thread;
 			sourceTree = "<group>";
 		};
+		04383B6728C88EA300989D2E /* CustomVideoRecordCamera */ = {
+			isa = PBXGroup;
+			children = (
+				04383B6E28C8901600989D2E /* Preview */,
+				04383B6828C88EC500989D2E /* CVRCameraViewController.swift */,
+				04383B6A28C88F1000989D2E /* CVRCameraView.swift */,
+				04383B6C28C88F1B00989D2E /* CVRCameraViewModel.swift */,
+			);
+			path = CustomVideoRecordCamera;
+			sourceTree = "<group>";
+		};
+		04383B6E28C8901600989D2E /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				04383B6F28C8903100989D2E /* CVRPreviewViewController.swift */,
+				04383B7128C8903900989D2E /* CVRPreviewView.swift */,
+				04383B7328C8904200989D2E /* CVRPreviewViewModel.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		04688F8A28827C19002F32D2 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +538,77 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
+		04A8288128D0B2D700D92AAC /* ImageSimilarity */ = {
+			isa = PBXGroup;
+			children = (
+				04A8288228D0B2EA00D92AAC /* ImageSimilarityViewController.swift */,
+			);
+			path = ImageSimilarity;
+			sourceTree = "<group>";
+		};
+		04A8288428D0B39000D92AAC /* SwiftUIBasic */ = {
+			isa = PBXGroup;
+			children = (
+				04A8289A28D0BC6500D92AAC /* ScrollViewReaderExample */,
+				04A8289528D0B95900D92AAC /* HStackExample */,
+				04A8289228D0B8AE00D92AAC /* SpacerExample */,
+				04A8288F28D0B64700D92AAC /* VStackExample */,
+				04A8288C28D0B58800D92AAC /* ScrollViewExample */,
+				04A8288528D0B39A00D92AAC /* ZStackExample */,
+				04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */,
+				04A8288828D0B3C800D92AAC /* SwiftUIBasicView.swift */,
+			);
+			path = SwiftUIBasic;
+			sourceTree = "<group>";
+		};
+		04A8288528D0B39A00D92AAC /* ZStackExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A8288A28D0B42A00D92AAC /* ZStackExampleView.swift */,
+			);
+			path = ZStackExample;
+			sourceTree = "<group>";
+		};
+		04A8288C28D0B58800D92AAC /* ScrollViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A8288D28D0B59B00D92AAC /* ScrollExample.swift */,
+			);
+			path = ScrollViewExample;
+			sourceTree = "<group>";
+		};
+		04A8288F28D0B64700D92AAC /* VStackExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A8289028D0B65B00D92AAC /* VStackExample.swift */,
+			);
+			path = VStackExample;
+			sourceTree = "<group>";
+		};
+		04A8289228D0B8AE00D92AAC /* SpacerExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A8289328D0B8BB00D92AAC /* SpacerExample.swift */,
+			);
+			path = SpacerExample;
+			sourceTree = "<group>";
+		};
+		04A8289528D0B95900D92AAC /* HStackExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A8289628D0B96400D92AAC /* HStackExample.swift */,
+			);
+			path = HStackExample;
+			sourceTree = "<group>";
+		};
+		04A8289A28D0BC6500D92AAC /* ScrollViewReaderExample */ = {
+			isa = PBXGroup;
+			children = (
+				04A8289B28D0BC7F00D92AAC /* ScrollViewReaderExample.swift */,
+			);
+			path = ScrollViewReaderExample;
+			sourceTree = "<group>";
+		};
 		04B5559A28B476C00031EEE6 /* ChapterXX */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +621,8 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				04A8288128D0B2D700D92AAC /* ImageSimilarity */,
+				04383B6728C88EA300989D2E /* CustomVideoRecordCamera */,
 				04383B5D28C71A2900989D2E /* CustomCamera */,
 				042A7D8F28C5DECD00F6A8E1 /* MVVMExample */,
 				04B5560428BD9B410031EEE6 /* BottomNavigation */,
@@ -757,6 +882,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
+				04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */,
 				04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */,
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
@@ -769,29 +895,40 @@
 				041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */,
 				042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */,
 				04B555F728BCB1730031EEE6 /* StateExampleViewController.swift in Sources */,
+				04A8288B28D0B42A00D92AAC /* ZStackExampleView.swift in Sources */,
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
+				04383B7028C8903100989D2E /* CVRPreviewViewController.swift in Sources */,
+				04383B7428C8904200989D2E /* CVRPreviewViewModel.swift in Sources */,
 				04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */,
 				04383B6128C71E6100989D2E /* CustomCameraExampleView.swift in Sources */,
 				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
+				04A8288728D0B3BF00D92AAC /* SwiftUIBasicViewController.swift in Sources */,
+				04383B6D28C88F1B00989D2E /* CVRCameraViewModel.swift in Sources */,
 				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
 				04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */,
+				04A8288928D0B3C800D92AAC /* SwiftUIBasicView.swift in Sources */,
 				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
 				04B555F928BCB28F0031EEE6 /* BindingExampleViewController.swift in Sources */,
 				04383B6328C72E4100989D2E /* CustomCameraExampleViewModel.swift in Sources */,
 				042A7D9328C5DEF900F6A8E1 /* MVVMExampleViewModel.swift in Sources */,
 				04B555FF28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift in Sources */,
+				04A8289C28D0BC7F00D92AAC /* ScrollViewReaderExample.swift in Sources */,
 				04B555C728B5FA820031EEE6 /* TextFieldView.swift in Sources */,
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
+				04A8288E28D0B59B00D92AAC /* ScrollExample.swift in Sources */,
+				04383B6B28C88F1000989D2E /* CVRCameraView.swift in Sources */,
 				04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */,
+				04383B6928C88EC500989D2E /* CVRCameraViewController.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
+				04A8289128D0B65B00D92AAC /* VStackExample.swift in Sources */,
 				04B555C928B5FF350031EEE6 /* ViewExtension.swift in Sources */,
 				041495B328B37B16005AA3FC /* DeviceUtility.swift in Sources */,
 				04383B5C28C709ED00989D2E /* SubContentFavoriteView.swift in Sources */,
@@ -800,12 +937,15 @@
 				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
 				04B5560628BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
+				04A8289728D0B96400D92AAC /* HStackExample.swift in Sources */,
 				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
 				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
 				04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */,
 				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
 				04383B5F28C71A5000989D2E /* CustomCameraExampleViewController.swift in Sources */,
+				04A8288328D0B2EA00D92AAC /* ImageSimilarityViewController.swift in Sources */,
 				04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */,
+				04A8289428D0B8BB00D92AAC /* SpacerExample.swift in Sources */,
 				04B555E028BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
 				042A7D9528C5DF0800F6A8E1 /* MVVMExampleView.swift in Sources */,
