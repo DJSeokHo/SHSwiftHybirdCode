@@ -8,6 +8,7 @@
 import UIKit
 import SwiftUI
 
+
 class StateExampleViewController: UIViewController {
 
     public static func start(viewController: UIViewController) {
@@ -40,6 +41,10 @@ class StateExampleViewController: UIViewController {
 
 private struct StateExampleView: View {
     
+    /**
+     加了 @State注解的变量，视图通过监视和读取该变量来重新渲染UI。
+     State针对具体View的内部变量进行管理，不应该从外部被允许访问，所以应该标记为private
+     */
     @State
     private var number = 0
     

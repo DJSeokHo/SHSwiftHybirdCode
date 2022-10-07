@@ -80,8 +80,11 @@ class MainViewController: UIViewController {
 //        BottomNavigationExampleViewController.start(viewController: self)
 //        CustomCameraExampleViewController.start(viewController: self)
         
+//        SwiftUIBasicViewController.start(viewController: self)
+        
 //        ImageSimilarityViewController.start(viewController: self)
-        SwiftUIBasicViewController.start(viewController: self)
+        
+        StateObjectAndObservedObjectExampleViewController.start(viewController: self)
     }
     
     /*

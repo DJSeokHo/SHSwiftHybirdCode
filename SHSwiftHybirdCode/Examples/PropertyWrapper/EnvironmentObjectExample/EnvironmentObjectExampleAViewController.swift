@@ -17,9 +17,7 @@ class EnvironmentObjectExampleAViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        EnvironmentObjectExampleClassModel.instance
-        
+       
         // Do any additional setup after loading the view.
         setSwiftUI(anyViewWrapper: AnyView(
             ContentView(onOpenB: {

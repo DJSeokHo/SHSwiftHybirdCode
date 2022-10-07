@@ -45,6 +45,8 @@ private struct ImageSimilarityView: View {
                 .white
                 .ignoresSafeArea()
             
+            
+            
         }
         .ignoresSafeArea()
         

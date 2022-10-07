@@ -57,10 +57,12 @@ class SubContentFavoriteViewController: UIViewController {
 private struct ContentView: View {
     
     // 用于从外部引用已经生成的viewModel对象，界面重新载入依然可以保持状态
+    // @ObservedObject的生命周期由我们手动管理，通常由父传给子
     @ObservedObject
     var viewModel: SubContentFavoriteViewModel
     
     // 每次都会创建一个viewModel，界面重新载入的话无法保持状态
+    // @StateObject的生命周期由View管理，只初始化一次，View销毁它就销毁
 //    @StateObject
 //    private var viewModel = SubContentFavoriteViewModel()
     

@@ -70,7 +70,8 @@ private struct ContentView: View {
                     seletedTab: $seletedTab,
                     subContentHomeViewController: subContentHomeViewController,
                     subContentFavoriteViewController: subContentFavoriteViewController,
-                    subContentProfileViewController: subContentProfileViewController, subContentFavoriteViewModel: subContentFavoriteViewModel
+                    subContentProfileViewController: subContentProfileViewController,
+                    subContentFavoriteViewModel: subContentFavoriteViewModel
                 )
                 
                 BottomNavigationView(
@@ -112,7 +113,10 @@ private struct ContainerView: View {
      
         case 1:
         
-            SubContentFavoriteViewControllerSwiftUI(subContentFavoriteViewController: subContentFavoriteViewController, viewModel: subContentFavoriteViewModel)
+            SubContentFavoriteViewControllerSwiftUI(
+                subContentFavoriteViewController: subContentFavoriteViewController,
+                viewModel: subContentFavoriteViewModel
+            )
             
         case 2:
             
