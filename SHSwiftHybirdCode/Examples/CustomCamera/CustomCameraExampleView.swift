@@ -10,17 +10,20 @@ import AVFoundation
 
 struct CustomCameraExampleView: View {
     
+    @StateObject
+    var viewModel: CustomCameraExampleViewModel
+    
     var body: some View {
         
-        CameraView()
+        CameraView(viewModel: viewModel)
         
     }
 }
 
 private struct CameraView: View {
     
-    @StateObject
-    var viewModel = CustomCameraExampleViewModel()
+    @ObservedObject
+    var viewModel: CustomCameraExampleViewModel
     
     var body: some View {
         
@@ -159,6 +162,6 @@ private struct CameraPreviewView: UIViewRepresentable {
 
 struct CustomCameraExampleView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomCameraExampleView()
+        CustomCameraExampleView(viewModel: CustomCameraExampleViewModel())
     }
 }

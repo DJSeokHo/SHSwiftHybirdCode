@@ -46,6 +46,8 @@
 		044A4A0928F03D7B00F79A94 /* StateObjectAndObservedObjectExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A0828F03D7B00F79A94 /* StateObjectAndObservedObjectExampleViewController.swift */; };
 		044A4A0B28F071D100F79A94 /* SOAOOExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A0A28F071D100F79A94 /* SOAOOExampleViewModel.swift */; };
 		044A4A0D28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A0C28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift */; };
+		044A4A1228F2AF3300F79A94 /* CustomCameraTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A1128F2AF3300F79A94 /* CustomCameraTestViewController.swift */; };
+		044A4A1428F2AF7C00F79A94 /* CustomCameraTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A1328F2AF7C00F79A94 /* CustomCameraTestView.swift */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -148,6 +150,8 @@
 		044A4A0828F03D7B00F79A94 /* StateObjectAndObservedObjectExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectExampleViewController.swift; sourceTree = "<group>"; };
 		044A4A0A28F071D100F79A94 /* SOAOOExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOAOOExampleViewModel.swift; sourceTree = "<group>"; };
 		044A4A0C28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectExampleView.swift; sourceTree = "<group>"; };
+		044A4A1128F2AF3300F79A94 /* CustomCameraTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraTestViewController.swift; sourceTree = "<group>"; };
+		044A4A1328F2AF7C00F79A94 /* CustomCameraTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraTestView.swift; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -461,6 +465,22 @@
 			path = StateObjectAndObservedObjectExample;
 			sourceTree = "<group>";
 		};
+		044A4A0F28F10B9E00F79A94 /* NaverMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NaverMap;
+			sourceTree = "<group>";
+		};
+		044A4A1028F2AF1000F79A94 /* CustomCameraTest */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A1128F2AF3300F79A94 /* CustomCameraTestViewController.swift */,
+				044A4A1328F2AF7C00F79A94 /* CustomCameraTestView.swift */,
+			);
+			path = CustomCameraTest;
+			sourceTree = "<group>";
+		};
 		04688F8A28827C19002F32D2 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +657,8 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A1028F2AF1000F79A94 /* CustomCameraTest */,
+				044A4A0F28F10B9E00F79A94 /* NaverMap */,
 				04A8288128D0B2D700D92AAC /* ImageSimilarity */,
 				04383B6728C88EA300989D2E /* CustomVideoRecordCamera */,
 				04383B5D28C71A2900989D2E /* CustomCamera */,
@@ -900,6 +922,7 @@
 			files = (
 				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
 				04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */,
+				044A4A1428F2AF7C00F79A94 /* CustomCameraTestView.swift in Sources */,
 				04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */,
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
@@ -956,6 +979,7 @@
 				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
 				04B5560628BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
+				044A4A1228F2AF3300F79A94 /* CustomCameraTestViewController.swift in Sources */,
 				04A8289728D0B96400D92AAC /* HStackExample.swift in Sources */,
 				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
 				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
@@ -1144,8 +1168,7 @@
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app will use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1174,8 +1197,7 @@
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app will use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

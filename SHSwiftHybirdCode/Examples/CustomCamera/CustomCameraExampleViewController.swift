@@ -15,12 +15,14 @@ class CustomCameraExampleViewController: UIViewController {
         viewController.present(targetViewController: CustomCameraExampleViewController())
     }
     
+    private let viewModel = CustomCameraExampleViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         setSwiftUI(anyViewWrapper: AnyView(
-            CustomCameraExampleView()
+            CustomCameraExampleView(viewModel: self.viewModel)
         ))
     }
     
