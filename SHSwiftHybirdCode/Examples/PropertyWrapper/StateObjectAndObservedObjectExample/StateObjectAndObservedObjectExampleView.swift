@@ -85,7 +85,7 @@ struct StateObjectAndObservedObjectExampleView_Previews: PreviewProvider {
 
 //使用不同的 propertywrapper 修饰相同的 ViewModel 对象
 //1，使用StateObject
-private struct CountViewState:View {
+private struct CountViewState: View {
     
     @StateObject
     var viewModel = SOAOOExampleViewModel(type:"StateObject")//1
@@ -101,7 +101,7 @@ private struct CountViewState:View {
 }
 
 //2，使用ObservedObject
-private struct CountViewObserved:View {
+private struct CountViewObserved: View {
     
     @ObservedObject
     var viewModel = SOAOOExampleViewModel(type:"ObservedObject")//2
@@ -117,7 +117,7 @@ private struct CountViewObserved:View {
 }
 
 //3，使用 外部传递 ObservedObject
-private struct CountViewPassObserved:View{
+private struct CountViewPassObserved: View{
     
     @ObservedObject
     var viewModel: SOAOOExampleViewModel

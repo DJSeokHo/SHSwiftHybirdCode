@@ -13,6 +13,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        initNotification()
+        
         // Do any additional setup after loading the view.
         setSwiftUI(anyViewWrapper: AnyView(MainView(
                     onButtonClick: { buttonContent in
@@ -61,31 +63,43 @@ class MainViewController: UIViewController {
                 )
             )
         )
+        
+        ThreadUtility.startThread {
+            
+            ThreadUtility.startUIThread(runnable: {
+                
+                
+        //        RestaurantListViewController.start(viewController: self)
+        //        ChapterXXViewController.start(viewController: self)
+        //        PressAbleButtonViewController.start(viewController: self)
+                
+        //        JSONEncodeDecodeViewController.start(viewController: self)
+        //        FoundationViewController.start(viewController: self)
+        //        StateExampleViewController.start(viewController: self)
+        //        BindingExampleViewController.start(viewController: self)
+        //        EnvironmentObjectExampleAViewController.start(viewController: self)
+                
+        //        MVVMExampleViewController.start(viewController: self)
+        //        BottomNavigationExampleViewController.start(viewController: self)
+        //        CustomCameraTestViewController.start(viewController: self)
+                QRCameraViewController.start(viewController: self, tag: #file)
+                
+        //        SwiftUIBasicViewController.start(viewController: self)
+                
+        //        ImageSimilarityViewController.start(viewController: self)
+                
+        //        StateObjectAndObservedObjectExampleViewController.start(viewController: self)
+                
+            }, afterSeconds: 1)
+        }
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-//        RestaurantListViewController.start(viewController: self)
-//        ChapterXXViewController.start(viewController: self)
-//        PressAbleButtonViewController.start(viewController: self)
-        
-//        JSONEncodeDecodeViewController.start(viewController: self)
-//        FoundationViewController.start(viewController: self)
-//        StateExampleViewController.start(viewController: self)
-//        BindingExampleViewController.start(viewController: self)
-//        EnvironmentObjectExampleAViewController.start(viewController: self)
-        
-//        MVVMExampleViewController.start(viewController: self)
-//        BottomNavigationExampleViewController.start(viewController: self)
-//        CustomCameraExampleViewController.start(viewController: self)
-        CustomCameraTestViewController.start(viewController: self)
-        
-//        SwiftUIBasicViewController.start(viewController: self)
-        
-//        ImageSimilarityViewController.start(viewController: self)
-        
-//        StateObjectAndObservedObjectExampleViewController.start(viewController: self)
+    private func initNotification() {
+        NotificationUtility.addObserver(name: NotificationConstants.SCAN_QR_RESULT, observer: self, selector: #selector(onScanQRResult))
+    }
+    
+    deinit {
+        NotificationUtility.removeAllObserver(observer: self)
     }
     
     /*
@@ -98,4 +112,20 @@ class MainViewController: UIViewController {
     }
     */
 
+}
+
+extension MainViewController {
+    
+    @objc private func onScanQRResult(_ notification: Notification) {
+        
+        let tag = NotificationUtility.getNotificationResult(notification, key: "tag")
+        let qr = NotificationUtility.getNotificationResult(notification, key: "qr")
+        
+        ILog.debug(tag: #file, content: "onScanQRResult")
+       
+        ILog.debug(tag: #file, content: tag)
+        ILog.debug(tag: #file, content: qr)
+        
+    }
+    
 }

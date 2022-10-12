@@ -33,9 +33,6 @@
 		042A7D9528C5DF0800F6A8E1 /* MVVMExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D9428C5DF0800F6A8E1 /* MVVMExampleView.swift */; };
 		042A7D9728C6311800F6A8E1 /* MVVMExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D9628C6311800F6A8E1 /* MVVMExampleModel.swift */; };
 		04383B5C28C709ED00989D2E /* SubContentFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B5B28C709ED00989D2E /* SubContentFavoriteView.swift */; };
-		04383B5F28C71A5000989D2E /* CustomCameraExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B5E28C71A5000989D2E /* CustomCameraExampleViewController.swift */; };
-		04383B6128C71E6100989D2E /* CustomCameraExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */; };
-		04383B6328C72E4100989D2E /* CustomCameraExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */; };
 		04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6528C7407000989D2E /* ThreadUtility.swift */; };
 		04383B6928C88EC500989D2E /* CVRCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6828C88EC500989D2E /* CVRCameraViewController.swift */; };
 		04383B6B28C88F1000989D2E /* CVRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383B6A28C88F1000989D2E /* CVRCameraView.swift */; };
@@ -48,6 +45,14 @@
 		044A4A0D28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A0C28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift */; };
 		044A4A1228F2AF3300F79A94 /* CustomCameraTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A1128F2AF3300F79A94 /* CustomCameraTestViewController.swift */; };
 		044A4A1428F2AF7C00F79A94 /* CustomCameraTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A1328F2AF7C00F79A94 /* CustomCameraTestView.swift */; };
+		044A4A1B28F64B3600F79A94 /* QRCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A1A28F64B3600F79A94 /* QRCameraViewController.swift */; };
+		044A4A1D28F64B3F00F79A94 /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A1C28F64B3F00F79A94 /* QRCameraView.swift */; };
+		044A4A2028F6517500F79A94 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 044A4A1F28F6517500F79A94 /* Lottie */; };
+		044A4A2528F6526500F79A94 /* ti_scan.json in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A2428F6526500F79A94 /* ti_scan.json */; };
+		044A4A2A28F653AD00F79A94 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A2928F653AD00F79A94 /* LottieView.swift */; };
+		044A4A2D28F6560B00F79A94 /* NotificationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A2C28F6560B00F79A94 /* NotificationUtility.swift */; };
+		044A4A3028F657A500F79A94 /* NotificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A2F28F657A500F79A94 /* NotificationConstants.swift */; };
+		044A4A3228F6639A00F79A94 /* QRCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A3128F6639A00F79A94 /* QRCameraViewModel.swift */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -137,9 +142,6 @@
 		042A7D9428C5DF0800F6A8E1 /* MVVMExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleView.swift; sourceTree = "<group>"; };
 		042A7D9628C6311800F6A8E1 /* MVVMExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleModel.swift; sourceTree = "<group>"; };
 		04383B5B28C709ED00989D2E /* SubContentFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentFavoriteView.swift; sourceTree = "<group>"; };
-		04383B5E28C71A5000989D2E /* CustomCameraExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleViewController.swift; sourceTree = "<group>"; };
-		04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleView.swift; sourceTree = "<group>"; };
-		04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraExampleViewModel.swift; sourceTree = "<group>"; };
 		04383B6528C7407000989D2E /* ThreadUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadUtility.swift; sourceTree = "<group>"; };
 		04383B6828C88EC500989D2E /* CVRCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRCameraViewController.swift; sourceTree = "<group>"; };
 		04383B6A28C88F1000989D2E /* CVRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVRCameraView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,13 @@
 		044A4A0C28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectExampleView.swift; sourceTree = "<group>"; };
 		044A4A1128F2AF3300F79A94 /* CustomCameraTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraTestViewController.swift; sourceTree = "<group>"; };
 		044A4A1328F2AF7C00F79A94 /* CustomCameraTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraTestView.swift; sourceTree = "<group>"; };
+		044A4A1A28F64B3600F79A94 /* QRCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraViewController.swift; sourceTree = "<group>"; };
+		044A4A1C28F64B3F00F79A94 /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
+		044A4A2428F6526500F79A94 /* ti_scan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ti_scan.json; sourceTree = "<group>"; };
+		044A4A2928F653AD00F79A94 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		044A4A2C28F6560B00F79A94 /* NotificationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtility.swift; sourceTree = "<group>"; };
+		044A4A2F28F657A500F79A94 /* NotificationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationConstants.swift; sourceTree = "<group>"; };
+		044A4A3128F6639A00F79A94 /* QRCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraViewModel.swift; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044A4A2028F6517500F79A94 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +259,8 @@
 		041DC7E828811502003970A3 /* SHSwiftHybirdCode */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A2E28F6579600F79A94 /* Constants */,
+				044A4A2228F6525100F79A94 /* Resource */,
 				04A8288428D0B39000D92AAC /* SwiftUIBasic */,
 				04B555B528B5B1C90031EEE6 /* Examples */,
 				041DC83128815DF0003970A3 /* Common */,
@@ -366,6 +378,7 @@
 		041DC83228815DF9003970A3 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A2828F653A100F79A94 /* LottieView */,
 				041DC83328815E00003970A3 /* TopAppBarView */,
 			);
 			path = SwiftUI;
@@ -382,6 +395,7 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A2B28F655F900F79A94 /* NotificationCenter */,
 				04383B6428C7406800989D2E /* Thread */,
 				041495B028B37AFF005AA3FC /* Device */,
 				041DC83728815F32003970A3 /* Debug */,
@@ -414,16 +428,6 @@
 				04383B5B28C709ED00989D2E /* SubContentFavoriteView.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		04383B5D28C71A2900989D2E /* CustomCamera */ = {
-			isa = PBXGroup;
-			children = (
-				04383B5E28C71A5000989D2E /* CustomCameraExampleViewController.swift */,
-				04383B6028C71E6100989D2E /* CustomCameraExampleView.swift */,
-				04383B6228C72E4100989D2E /* CustomCameraExampleViewModel.swift */,
-			);
-			path = CustomCamera;
 			sourceTree = "<group>";
 		};
 		04383B6428C7406800989D2E /* Thread */ = {
@@ -479,6 +483,56 @@
 				044A4A1328F2AF7C00F79A94 /* CustomCameraTestView.swift */,
 			);
 			path = CustomCameraTest;
+			sourceTree = "<group>";
+		};
+		044A4A1928F64B2300F79A94 /* QRCamera */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A1A28F64B3600F79A94 /* QRCameraViewController.swift */,
+				044A4A1C28F64B3F00F79A94 /* QRCameraView.swift */,
+				044A4A3128F6639A00F79A94 /* QRCameraViewModel.swift */,
+			);
+			path = QRCamera;
+			sourceTree = "<group>";
+		};
+		044A4A2228F6525100F79A94 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A2328F6525C00F79A94 /* Lottie */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		044A4A2328F6525C00F79A94 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A2428F6526500F79A94 /* ti_scan.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		044A4A2828F653A100F79A94 /* LottieView */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A2928F653AD00F79A94 /* LottieView.swift */,
+			);
+			path = LottieView;
+			sourceTree = "<group>";
+		};
+		044A4A2B28F655F900F79A94 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A2C28F6560B00F79A94 /* NotificationUtility.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		044A4A2E28F6579600F79A94 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A2F28F657A500F79A94 /* NotificationConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		04688F8A28827C19002F32D2 /* Tutorial */ = {
@@ -657,11 +711,11 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A1928F64B2300F79A94 /* QRCamera */,
 				044A4A1028F2AF1000F79A94 /* CustomCameraTest */,
 				044A4A0F28F10B9E00F79A94 /* NaverMap */,
 				04A8288128D0B2D700D92AAC /* ImageSimilarity */,
 				04383B6728C88EA300989D2E /* CustomVideoRecordCamera */,
-				04383B5D28C71A2900989D2E /* CustomCamera */,
 				042A7D8F28C5DECD00F6A8E1 /* MVVMExample */,
 				04B5560428BD9B410031EEE6 /* BottomNavigation */,
 				04B5560128BCF4020031EEE6 /* Singleton */,
@@ -804,6 +858,9 @@
 			dependencies = (
 			);
 			name = SHSwiftHybirdCode;
+			packageProductDependencies = (
+				044A4A1F28F6517500F79A94 /* Lottie */,
+			);
 			productName = SHSwiftHybirdCode;
 			productReference = 041DC7E628811502003970A3 /* SHSwiftHybirdCode.app */;
 			productType = "com.apple.product-type.application";
@@ -876,6 +933,9 @@
 				Base,
 			);
 			mainGroup = 041DC7DD28811502003970A3;
+			packageReferences = (
+				044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 041DC7E728811502003970A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -894,6 +954,7 @@
 			files = (
 				04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */,
 				041DC7F628811503003970A3 /* LaunchScreen.storyboard in Resources */,
+				044A4A2528F6526500F79A94 /* ti_scan.json in Resources */,
 				04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */,
 				041DC7F328811503003970A3 /* Assets.xcassets in Resources */,
 			);
@@ -923,6 +984,7 @@
 				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
 				04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */,
 				044A4A1428F2AF7C00F79A94 /* CustomCameraTestView.swift in Sources */,
+				044A4A3028F657A500F79A94 /* NotificationConstants.swift in Sources */,
 				04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */,
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
@@ -932,6 +994,7 @@
 				04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */,
 				044A4A0D28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift in Sources */,
 				041DC83928815F3D003970A3 /* Debug.swift in Sources */,
+				044A4A1D28F64B3F00F79A94 /* QRCameraView.swift in Sources */,
 				04B555C428B5FA330031EEE6 /* FoundationViewController.swift in Sources */,
 				041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */,
 				042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */,
@@ -943,7 +1006,6 @@
 				04383B7028C8903100989D2E /* CVRPreviewViewController.swift in Sources */,
 				04383B7428C8904200989D2E /* CVRPreviewViewModel.swift in Sources */,
 				04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */,
-				04383B6128C71E6100989D2E /* CustomCameraExampleView.swift in Sources */,
 				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
 				04A8288728D0B3BF00D92AAC /* SwiftUIBasicViewController.swift in Sources */,
 				04383B6D28C88F1B00989D2E /* CVRCameraViewModel.swift in Sources */,
@@ -955,8 +1017,8 @@
 				04A8288928D0B3C800D92AAC /* SwiftUIBasicView.swift in Sources */,
 				04688F9728893F9D002F32D2 /* RestaurantListViewController.swift in Sources */,
 				044A4A0928F03D7B00F79A94 /* StateObjectAndObservedObjectExampleViewController.swift in Sources */,
+				044A4A2D28F6560B00F79A94 /* NotificationUtility.swift in Sources */,
 				04B555F928BCB28F0031EEE6 /* BindingExampleViewController.swift in Sources */,
-				04383B6328C72E4100989D2E /* CustomCameraExampleViewModel.swift in Sources */,
 				042A7D9328C5DEF900F6A8E1 /* MVVMExampleViewModel.swift in Sources */,
 				04B555FF28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift in Sources */,
 				04A8289C28D0BC7F00D92AAC /* ScrollViewReaderExample.swift in Sources */,
@@ -969,6 +1031,7 @@
 				04383B6B28C88F1000989D2E /* CVRCameraView.swift in Sources */,
 				04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */,
 				04383B6928C88EC500989D2E /* CVRCameraViewController.swift in Sources */,
+				044A4A3228F6639A00F79A94 /* QRCameraViewModel.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
 				04A8289128D0B65B00D92AAC /* VStackExample.swift in Sources */,
 				04B555C928B5FF350031EEE6 /* ViewExtension.swift in Sources */,
@@ -976,7 +1039,9 @@
 				04383B5C28C709ED00989D2E /* SubContentFavoriteView.swift in Sources */,
 				042A7D9128C5DEF100F6A8E1 /* MVVMExampleViewController.swift in Sources */,
 				04688F99288940FD002F32D2 /* RestaurantListView.swift in Sources */,
+				044A4A1B28F64B3600F79A94 /* QRCameraViewController.swift in Sources */,
 				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
+				044A4A2A28F653AD00F79A94 /* LottieView.swift in Sources */,
 				04B5560628BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 				044A4A1228F2AF3300F79A94 /* CustomCameraTestViewController.swift in Sources */,
@@ -985,7 +1050,6 @@
 				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
 				04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */,
 				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
-				04383B5F28C71A5000989D2E /* CustomCameraExampleViewController.swift in Sources */,
 				04A8288328D0B2EA00D92AAC /* ImageSimilarityViewController.swift in Sources */,
 				04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */,
 				04A8289428D0B8BB00D92AAC /* SpacerExample.swift in Sources */,
@@ -1328,6 +1392,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		044A4A1F28F6517500F79A94 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 041DC7DE28811502003970A3 /* Project object */;
 }

@@ -1,40 +1,44 @@
 //
-//  CustomCameraTestView.swift
+//  QRCameraView.swift
 //  SHSwiftHybirdCode
 //
-//  Created by mac on 2022/10/09.
+//  Created by mac on 2022/10/12.
 //
 
 import SwiftUI
 import AVFoundation
 
-struct CustomCameraTestViewDelegate {
+struct QRCameraViewDelegate {
     
     var onFinish: () -> Void
     var onCheckPermission: () -> Void
     var onAddPreview: () -> AVCaptureVideoPreviewLayer
-    var onCapture: () -> Void
 }
 
-struct CustomCameraTestView: View {
+struct QRCameraView: View {
     
-    var delegate: CustomCameraTestViewDelegate
+    var delegate: QRCameraViewDelegate
+    
+    @ObservedObject
+    var viewModel: QRCameraViewModel
     
     var body: some View {
        
-        CameraView(delegate: delegate)
+        ContentView(delegate: delegate, viewModel: viewModel)
         
     }
 }
 
-
-private struct CameraView: View {
+private struct ContentView: View {
     
-    var delegate: CustomCameraTestViewDelegate
+    var delegate: QRCameraViewDelegate
+    
+    @ObservedObject
+    var viewModel: QRCameraViewModel
     
     var body: some View {
         
-        ZStack {
+        ZStack(alignment: .center) {
             
             // camera preview
             Color
@@ -44,33 +48,12 @@ private struct CameraView: View {
             CameraPreviewView(preview: delegate.onAddPreview())
                 .ignoresSafeArea(.all, edges: .all)
             
-            VStack {
-                
-                Spacer()
-                
-                Button(action: {
-                    
-                    delegate.onCapture()
-                    
-                }, label: {
-                    
-                    ZStack {
-                        
-                        Circle()
-                            .fill(Color.white)
-                            .frame(width: 65, height: 65)
-                        
-                        Circle()
-                            .stroke(Color.white, lineWidth: 2)
-                            .frame(width: 75, height: 75)
-                    }
-                    
-                })
-                
-                Spacer()
-                    .frame(height: 30)
-                
+            if viewModel.scanLine {
+                LottieView(lottieFile: "ti_scan.json")
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                    .padding(.horizontal, 50)
             }
+           
         }
         .ignoresSafeArea(.all, edges: .all)
         .onAppear(perform: {
@@ -103,23 +86,18 @@ private struct CameraPreviewView: UIViewRepresentable {
     }
 }
 
-struct CustomCameraTestView_Previews: PreviewProvider {
+struct QRCameraView_Previews: PreviewProvider {
     static var previews: some View {
-        
-        CustomCameraTestView(delegate: CustomCameraTestViewDelegate(
+        QRCameraView(delegate: QRCameraViewDelegate(
             onFinish: {
                
             },
             onCheckPermission: {
-                
+               
             },
             onAddPreview: {
                 return AVCaptureVideoPreviewLayer()
-            },
-            onCapture: {
-                
             }
-        ))
-
+        ), viewModel: QRCameraViewModel())
     }
 }
