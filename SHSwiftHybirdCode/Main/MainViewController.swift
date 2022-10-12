@@ -82,13 +82,15 @@ class MainViewController: UIViewController {
         //        MVVMExampleViewController.start(viewController: self)
         //        BottomNavigationExampleViewController.start(viewController: self)
         //        CustomCameraTestViewController.start(viewController: self)
-                QRCameraViewController.start(viewController: self, tag: #file)
+//                QRCameraViewController.start(viewController: self, tag: #file)
                 
         //        SwiftUIBasicViewController.start(viewController: self)
                 
         //        ImageSimilarityViewController.start(viewController: self)
                 
         //        StateObjectAndObservedObjectExampleViewController.start(viewController: self)
+                
+                ImageSimilarityViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }
