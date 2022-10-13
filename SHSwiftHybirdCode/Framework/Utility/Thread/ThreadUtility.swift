@@ -24,4 +24,10 @@ class ThreadUtility {
         }
     }
     
+    public static func startUIThread(runnable: @escaping () -> Void) {
+        
+        DispatchQueue.main.async {
+            runnable()
+        }
+    }
 }

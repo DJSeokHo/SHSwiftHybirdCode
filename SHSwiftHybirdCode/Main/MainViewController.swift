@@ -90,7 +90,9 @@ class MainViewController: UIViewController {
                 
         //        StateObjectAndObservedObjectExampleViewController.start(viewController: self)
                 
-                ImageSimilarityViewController.start(viewController: self)
+//                ImageSimilarityViewController.start(viewController: self)
+                
+                ImageSimilarityCameraViewController.start(viewController: self, sampleImage: ImageSimilarityCameraViewController.TEST_IMAGE_SAMPLE)
                 
             }, afterSeconds: 1)
         }
