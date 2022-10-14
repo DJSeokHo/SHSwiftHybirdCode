@@ -104,7 +104,6 @@ class ImageSimilarityCameraViewController: UIViewController, AVCaptureVideoDataO
                     return
                 }
                 
-                
                 self.preview.session = self.captureSession
                 self.captureSession.beginConfiguration()
                 
@@ -119,14 +118,11 @@ class ImageSimilarityCameraViewController: UIViewController, AVCaptureVideoDataO
                 
                 self.captureSession.commitConfiguration()
                 
-                // video data output
                 self.processingVideoDataOutput()
                 
                 ThreadUtility.startThread {
-                    // start session
+                   
                     self.captureSession.startRunning()
-                    // stop session
-//                    self.captureSession.stopRunning()
                 }
             }
         }

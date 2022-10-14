@@ -92,7 +92,9 @@ class MainViewController: UIViewController {
                 
 //                ImageSimilarityViewController.start(viewController: self)
                 
-                ImageSimilarityCameraViewController.start(viewController: self, sampleImage: ImageSimilarityCameraViewController.TEST_IMAGE_SAMPLE)
+//                ImageSimilarityCameraViewController.start(viewController: self, sampleImage: ImageSimilarityCameraViewController.TEST_IMAGE_SAMPLE)
+                
+                ARExampleViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }

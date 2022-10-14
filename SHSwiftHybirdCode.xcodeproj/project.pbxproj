@@ -57,6 +57,10 @@
 		044A4A3928F691FD00F79A94 /* ImageSimilarityCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A3828F691FD00F79A94 /* ImageSimilarityCameraView.swift */; };
 		044A4A3E28F7EED600F79A94 /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A3D28F7EED600F79A94 /* ImageUtility.swift */; };
 		044A4A4028F7F76000F79A94 /* ImageSimilarityCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A3F28F7F76000F79A94 /* ImageSimilarityCameraViewModel.swift */; };
+		044A4A4328F81CF900F79A94 /* ARExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A4228F81CF900F79A94 /* ARExampleViewController.swift */; };
+		044A4A4528F9401800F79A94 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A4428F9401800F79A94 /* ARViewController.swift */; };
+		044A4A4928F9432B00F79A94 /* ARExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A4828F9432B00F79A94 /* ARExampleView.swift */; };
+		044A4A4B28F9511500F79A94 /* ARResource.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A4A28F9511500F79A94 /* ARResource.scnassets */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -169,6 +173,10 @@
 		044A4A3828F691FD00F79A94 /* ImageSimilarityCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSimilarityCameraView.swift; sourceTree = "<group>"; };
 		044A4A3D28F7EED600F79A94 /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		044A4A3F28F7F76000F79A94 /* ImageSimilarityCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSimilarityCameraViewModel.swift; sourceTree = "<group>"; };
+		044A4A4228F81CF900F79A94 /* ARExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExampleViewController.swift; sourceTree = "<group>"; };
+		044A4A4428F9401800F79A94 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		044A4A4828F9432B00F79A94 /* ARExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExampleView.swift; sourceTree = "<group>"; };
+		044A4A4A28F9511500F79A94 /* ARResource.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARResource.scnassets; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -267,6 +275,7 @@
 		041DC7E828811502003970A3 /* SHSwiftHybirdCode */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A4A28F9511500F79A94 /* ARResource.scnassets */,
 				044A4A2E28F6579600F79A94 /* Constants */,
 				044A4A2228F6525100F79A94 /* Resource */,
 				04A8288428D0B39000D92AAC /* SwiftUIBasic */,
@@ -562,6 +571,16 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		044A4A4128F81CE500F79A94 /* ARExample */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A4228F81CF900F79A94 /* ARExampleViewController.swift */,
+				044A4A4428F9401800F79A94 /* ARViewController.swift */,
+				044A4A4828F9432B00F79A94 /* ARExampleView.swift */,
+			);
+			path = ARExample;
+			sourceTree = "<group>";
+		};
 		04688F8A28827C19002F32D2 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -738,6 +757,7 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A4128F81CE500F79A94 /* ARExample */,
 				044A4A3328F691AD00F79A94 /* ImageSimilarityCamera */,
 				044A4A1928F64B2300F79A94 /* QRCamera */,
 				044A4A1028F2AF1000F79A94 /* CustomCameraTest */,
@@ -982,6 +1002,7 @@
 			files = (
 				04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */,
 				041DC7F628811503003970A3 /* LaunchScreen.storyboard in Resources */,
+				044A4A4B28F9511500F79A94 /* ARResource.scnassets in Resources */,
 				044A4A2528F6526500F79A94 /* ti_scan.json in Resources */,
 				04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */,
 				041DC7F328811503003970A3 /* Assets.xcassets in Resources */,
@@ -1056,6 +1077,7 @@
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
+				044A4A4528F9401800F79A94 /* ARViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
 				04A8288E28D0B59B00D92AAC /* ScrollExample.swift in Sources */,
 				04383B6B28C88F1000989D2E /* CVRCameraView.swift in Sources */,
@@ -1077,6 +1099,7 @@
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 				044A4A1228F2AF3300F79A94 /* CustomCameraTestViewController.swift in Sources */,
 				04A8289728D0B96400D92AAC /* HStackExample.swift in Sources */,
+				044A4A4328F81CF900F79A94 /* ARExampleViewController.swift in Sources */,
 				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
 				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
 				04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */,
@@ -1087,6 +1110,7 @@
 				04B555E028BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,
 				042A7D9528C5DF0800F6A8E1 /* MVVMExampleView.swift in Sources */,
+				044A4A4928F9432B00F79A94 /* ARExampleView.swift in Sources */,
 				044A4A4028F7F76000F79A94 /* ImageSimilarityCameraViewModel.swift in Sources */,
 				044A4A0B28F071D100F79A94 /* SOAOOExampleViewModel.swift in Sources */,
 			);
