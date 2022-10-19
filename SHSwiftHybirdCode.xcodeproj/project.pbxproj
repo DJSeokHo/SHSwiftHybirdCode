@@ -61,6 +61,21 @@
 		044A4A4528F9401800F79A94 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A4428F9401800F79A94 /* ARViewController.swift */; };
 		044A4A4928F9432B00F79A94 /* ARExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A4828F9432B00F79A94 /* ARExampleView.swift */; };
 		044A4A4B28F9511500F79A94 /* ARResource.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A4A28F9511500F79A94 /* ARResource.scnassets */; };
+		044A4A4D28FD11EB00F79A94 /* ARExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A4C28FD11EB00F79A94 /* ARExampleViewModel.swift */; };
+		044A4A5428FD4CF700F79A94 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A5328FD4CF700F79A94 /* Plane.swift */; };
+		044A4A5728FE6D9800F79A94 /* SceneExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A5628FE6D9800F79A94 /* SceneExampleViewController.swift */; };
+		044A4A5928FE6DA000F79A94 /* SceneExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A5828FE6DA000F79A94 /* SceneExampleView.swift */; };
+		044A4A5D28FE79B000F79A94 /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A5C28FE79B000F79A94 /* SceneKitViewController.swift */; };
+		044A4A6028FF844C00F79A94 /* Scene3DModelExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A5F28FF844C00F79A94 /* Scene3DModelExampleViewController.swift */; };
+		044A4A6228FF846000F79A94 /* Scene3DModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A6128FF846000F79A94 /* Scene3DModelViewController.swift */; };
+		044A4A6428FF846900F79A94 /* Scene3DModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A6328FF846900F79A94 /* Scene3DModelExampleView.swift */; };
+		044A4A7028FF889300F79A94 /* converse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A6B28FF889300F79A94 /* converse.jpg */; };
+		044A4A7128FF889300F79A94 /* converse_obj.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A6C28FF889300F79A94 /* converse_obj.mtl */; };
+		044A4A7228FF889300F79A94 /* laces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A6D28FF889300F79A94 /* laces.jpg */; };
+		044A4A7328FF889300F79A94 /* converse_obj.obj in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A6E28FF889300F79A94 /* converse_obj.obj */; };
+		044A4A7428FF889300F79A94 /* converse_bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A6F28FF889300F79A94 /* converse_bump.jpg */; };
+		044A4A7B28FF8CA800F79A94 /* converse_obj.scn in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A7A28FF8CA800F79A94 /* converse_obj.scn */; };
+		044A4A7F28FF977000F79A94 /* 3d_model_animation_kalug.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A7E28FF977000F79A94 /* 3d_model_animation_kalug.usdz */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -177,6 +192,21 @@
 		044A4A4428F9401800F79A94 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		044A4A4828F9432B00F79A94 /* ARExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExampleView.swift; sourceTree = "<group>"; };
 		044A4A4A28F9511500F79A94 /* ARResource.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARResource.scnassets; sourceTree = "<group>"; };
+		044A4A4C28FD11EB00F79A94 /* ARExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExampleViewModel.swift; sourceTree = "<group>"; };
+		044A4A5328FD4CF700F79A94 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		044A4A5628FE6D9800F79A94 /* SceneExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneExampleViewController.swift; sourceTree = "<group>"; };
+		044A4A5828FE6DA000F79A94 /* SceneExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneExampleView.swift; sourceTree = "<group>"; };
+		044A4A5C28FE79B000F79A94 /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
+		044A4A5F28FF844C00F79A94 /* Scene3DModelExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3DModelExampleViewController.swift; sourceTree = "<group>"; };
+		044A4A6128FF846000F79A94 /* Scene3DModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3DModelViewController.swift; sourceTree = "<group>"; };
+		044A4A6328FF846900F79A94 /* Scene3DModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3DModelExampleView.swift; sourceTree = "<group>"; };
+		044A4A6B28FF889300F79A94 /* converse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = converse.jpg; sourceTree = "<group>"; };
+		044A4A6C28FF889300F79A94 /* converse_obj.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = converse_obj.mtl; sourceTree = "<group>"; };
+		044A4A6D28FF889300F79A94 /* laces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laces.jpg; sourceTree = "<group>"; };
+		044A4A6E28FF889300F79A94 /* converse_obj.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = converse_obj.obj; sourceTree = "<group>"; };
+		044A4A6F28FF889300F79A94 /* converse_bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = converse_bump.jpg; sourceTree = "<group>"; };
+		044A4A7A28FF8CA800F79A94 /* converse_obj.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = converse_obj.scn; sourceTree = "<group>"; };
+		044A4A7E28FF977000F79A94 /* 3d_model_animation_kalug.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 3d_model_animation_kalug.usdz; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -516,6 +546,7 @@
 		044A4A2228F6525100F79A94 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A6528FF868500F79A94 /* Model */,
 				044A4A2328F6525C00F79A94 /* Lottie */,
 			);
 			path = Resource;
@@ -574,11 +605,103 @@
 		044A4A4128F81CE500F79A94 /* ARExample */ = {
 			isa = PBXGroup;
 			children = (
-				044A4A4228F81CF900F79A94 /* ARExampleViewController.swift */,
-				044A4A4428F9401800F79A94 /* ARViewController.swift */,
-				044A4A4828F9432B00F79A94 /* ARExampleView.swift */,
+				044A4A5028FD149E00F79A94 /* View */,
+				044A4A4F28FD149800F79A94 /* ViewController */,
+				044A4A4E28FD149400F79A94 /* ViewModel */,
 			);
 			path = ARExample;
+			sourceTree = "<group>";
+		};
+		044A4A4E28FD149400F79A94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A4C28FD11EB00F79A94 /* ARExampleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		044A4A4F28FD149800F79A94 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A4228F81CF900F79A94 /* ARExampleViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		044A4A5028FD149E00F79A94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A5128FD14AF00F79A94 /* AR */,
+				044A4A4828F9432B00F79A94 /* ARExampleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044A4A5128FD14AF00F79A94 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A5228FD4CE800F79A94 /* Plane */,
+				044A4A4428F9401800F79A94 /* ARViewController.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		044A4A5228FD4CE800F79A94 /* Plane */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A5328FD4CF700F79A94 /* Plane.swift */,
+			);
+			path = Plane;
+			sourceTree = "<group>";
+		};
+		044A4A5528FE6D8600F79A94 /* SceneExample */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A5628FE6D9800F79A94 /* SceneExampleViewController.swift */,
+				044A4A5828FE6DA000F79A94 /* SceneExampleView.swift */,
+				044A4A5C28FE79B000F79A94 /* SceneKitViewController.swift */,
+			);
+			path = SceneExample;
+			sourceTree = "<group>";
+		};
+		044A4A5E28FF843200F79A94 /* Scene3DModelExample */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A5F28FF844C00F79A94 /* Scene3DModelExampleViewController.swift */,
+				044A4A6128FF846000F79A94 /* Scene3DModelViewController.swift */,
+				044A4A6328FF846900F79A94 /* Scene3DModelExampleView.swift */,
+			);
+			path = Scene3DModelExample;
+			sourceTree = "<group>";
+		};
+		044A4A6528FF868500F79A94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A7D28FF976700F79A94 /* kalug */,
+				044A4A6A28FF885D00F79A94 /* converse_model */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044A4A6A28FF885D00F79A94 /* converse_model */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A6F28FF889300F79A94 /* converse_bump.jpg */,
+				044A4A6C28FF889300F79A94 /* converse_obj.mtl */,
+				044A4A6E28FF889300F79A94 /* converse_obj.obj */,
+				044A4A7A28FF8CA800F79A94 /* converse_obj.scn */,
+				044A4A6B28FF889300F79A94 /* converse.jpg */,
+				044A4A6D28FF889300F79A94 /* laces.jpg */,
+			);
+			path = converse_model;
+			sourceTree = "<group>";
+		};
+		044A4A7D28FF976700F79A94 /* kalug */ = {
+			isa = PBXGroup;
+			children = (
+				044A4A7E28FF977000F79A94 /* 3d_model_animation_kalug.usdz */,
+			);
+			path = kalug;
 			sourceTree = "<group>";
 		};
 		04688F8A28827C19002F32D2 /* Tutorial */ = {
@@ -757,6 +880,8 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A5E28FF843200F79A94 /* Scene3DModelExample */,
+				044A4A5528FE6D8600F79A94 /* SceneExample */,
 				044A4A4128F81CE500F79A94 /* ARExample */,
 				044A4A3328F691AD00F79A94 /* ImageSimilarityCamera */,
 				044A4A1928F64B2300F79A94 /* QRCamera */,
@@ -1000,10 +1125,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044A4A7428FF889300F79A94 /* converse_bump.jpg in Resources */,
+				044A4A7328FF889300F79A94 /* converse_obj.obj in Resources */,
 				04688FA128894D87002F32D2 /* Nunito-Regular.ttf in Resources */,
 				041DC7F628811503003970A3 /* LaunchScreen.storyboard in Resources */,
+				044A4A7228FF889300F79A94 /* laces.jpg in Resources */,
+				044A4A7128FF889300F79A94 /* converse_obj.mtl in Resources */,
+				044A4A7F28FF977000F79A94 /* 3d_model_animation_kalug.usdz in Resources */,
+				044A4A7028FF889300F79A94 /* converse.jpg in Resources */,
 				044A4A4B28F9511500F79A94 /* ARResource.scnassets in Resources */,
 				044A4A2528F6526500F79A94 /* ti_scan.json in Resources */,
+				044A4A7B28FF8CA800F79A94 /* converse_obj.scn in Resources */,
 				04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */,
 				041DC7F328811503003970A3 /* Assets.xcassets in Resources */,
 			);
@@ -1038,6 +1170,7 @@
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
 				041DC82028811AE4003970A3 /* ChapterIIIView.swift in Sources */,
+				044A4A6028FF844C00F79A94 /* Scene3DModelExampleViewController.swift in Sources */,
 				042A7D9728C6311800F6A8E1 /* MVVMExampleModel.swift in Sources */,
 				041DC7EA28811502003970A3 /* AppDelegate.swift in Sources */,
 				04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */,
@@ -1056,6 +1189,7 @@
 				04383B7428C8904200989D2E /* CVRPreviewViewModel.swift in Sources */,
 				04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */,
 				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
+				044A4A4D28FD11EB00F79A94 /* ARExampleViewModel.swift in Sources */,
 				04A8288728D0B3BF00D92AAC /* SwiftUIBasicViewController.swift in Sources */,
 				04383B6D28C88F1B00989D2E /* CVRCameraViewModel.swift in Sources */,
 				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
@@ -1077,6 +1211,7 @@
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
+				044A4A5728FE6D9800F79A94 /* SceneExampleViewController.swift in Sources */,
 				044A4A4528F9401800F79A94 /* ARViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
 				04A8288E28D0B59B00D92AAC /* ScrollExample.swift in Sources */,
@@ -1095,17 +1230,22 @@
 				044A4A1B28F64B3600F79A94 /* QRCameraViewController.swift in Sources */,
 				04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */,
 				044A4A2A28F653AD00F79A94 /* LottieView.swift in Sources */,
+				044A4A6228FF846000F79A94 /* Scene3DModelViewController.swift in Sources */,
 				04B5560628BD9B5C0031EEE6 /* BottomNavigationExampleViewController.swift in Sources */,
+				044A4A5D28FE79B000F79A94 /* SceneKitViewController.swift in Sources */,
 				04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */,
 				044A4A1228F2AF3300F79A94 /* CustomCameraTestViewController.swift in Sources */,
 				04A8289728D0B96400D92AAC /* HStackExample.swift in Sources */,
 				044A4A4328F81CF900F79A94 /* ARExampleViewController.swift in Sources */,
 				04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */,
+				044A4A5428FD4CF700F79A94 /* Plane.swift in Sources */,
 				042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */,
 				04B555FB28BCB3320031EEE6 /* EnvironmentObjectExampleAViewController.swift in Sources */,
 				04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */,
 				04A8288328D0B2EA00D92AAC /* ImageSimilarityViewController.swift in Sources */,
 				04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */,
+				044A4A5928FE6DA000F79A94 /* SceneExampleView.swift in Sources */,
+				044A4A6428FF846900F79A94 /* Scene3DModelExampleView.swift in Sources */,
 				04A8289428D0B8BB00D92AAC /* SpacerExample.swift in Sources */,
 				04B555E028BC99BB0031EEE6 /* JSONEncodeDecodeViewController.swift in Sources */,
 				04688F942882D3C8002F32D2 /* ChapterVIView.swift in Sources */,

@@ -94,7 +94,9 @@ class MainViewController: UIViewController {
                 
 //                ImageSimilarityCameraViewController.start(viewController: self, sampleImage: ImageSimilarityCameraViewController.TEST_IMAGE_SAMPLE)
                 
-                ARExampleViewController.start(viewController: self)
+//                ARExampleViewController.start(viewController: self)
+//                SceneExampleViewController.start(viewController: self)
+                Scene3DModelExampleViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }
