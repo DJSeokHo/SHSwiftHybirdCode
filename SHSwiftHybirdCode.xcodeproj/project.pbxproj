@@ -25,6 +25,10 @@
 		041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83428815E14003970A3 /* TopAppBarView.swift */; };
 		041DC83928815F3D003970A3 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83828815F3D003970A3 /* Debug.swift */; };
 		041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DC83C28815FDD003970A3 /* ColorExtension.swift */; };
+		042551C0290A20AE0063B595 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 042551BF290A20AE0063B595 /* Podfile */; };
+		042551C2290A24DA0063B595 /* NaverMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551C1290A24DA0063B595 /* NaverMapView.swift */; };
+		042551C4290A53270063B595 /* NaverMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551C3290A53270063B595 /* NaverMapManager.swift */; };
+		042551C8290A5A3D0063B595 /* LocationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551C7290A5A3D0063B595 /* LocationWrapper.swift */; };
 		042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */; };
 		042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */; };
 		042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */; };
@@ -76,6 +80,7 @@
 		044A4A7428FF889300F79A94 /* converse_bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A6F28FF889300F79A94 /* converse_bump.jpg */; };
 		044A4A7B28FF8CA800F79A94 /* converse_obj.scn in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A7A28FF8CA800F79A94 /* converse_obj.scn */; };
 		044A4A7F28FF977000F79A94 /* 3d_model_animation_kalug.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A7E28FF977000F79A94 /* 3d_model_animation_kalug.usdz */; };
+		044A4A83290A112200F79A94 /* NaverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A82290A112200F79A94 /* NaverMapViewController.swift */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -115,6 +120,7 @@
 		04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */; };
 		04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */; };
 		04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD3428979C4C005F6F49 /* ReviewView.swift */; };
+		2AD9EB0440F50C9D8D55F6D2 /* libPods-SHSwiftHybirdCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A44A64F216540AFFE2EBDD2 /* libPods-SHSwiftHybirdCode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +163,10 @@
 		041DC83428815E14003970A3 /* TopAppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppBarView.swift; sourceTree = "<group>"; };
 		041DC83828815F3D003970A3 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		041DC83C28815FDD003970A3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		042551BF290A20AE0063B595 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		042551C1290A24DA0063B595 /* NaverMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapView.swift; sourceTree = "<group>"; };
+		042551C3290A53270063B595 /* NaverMapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapManager.swift; sourceTree = "<group>"; };
+		042551C7290A5A3D0063B595 /* LocationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWrapper.swift; sourceTree = "<group>"; };
 		042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentHomeViewController.swift; sourceTree = "<group>"; };
 		042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentFavoriteViewController.swift; sourceTree = "<group>"; };
 		042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentProfileViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +217,7 @@
 		044A4A6F28FF889300F79A94 /* converse_bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = converse_bump.jpg; sourceTree = "<group>"; };
 		044A4A7A28FF8CA800F79A94 /* converse_obj.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = converse_obj.scn; sourceTree = "<group>"; };
 		044A4A7E28FF977000F79A94 /* 3d_model_animation_kalug.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 3d_model_animation_kalug.usdz; sourceTree = "<group>"; };
+		044A4A82290A112200F79A94 /* NaverMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapViewController.swift; sourceTree = "<group>"; };
 		04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkViewController.swift; sourceTree = "<group>"; };
 		04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterIVHomeworkView.swift; sourceTree = "<group>"; };
 		04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVIViewController.swift; sourceTree = "<group>"; };
@@ -246,6 +257,9 @@
 		04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapViewController.swift; sourceTree = "<group>"; };
 		04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapView.swift; sourceTree = "<group>"; };
 		04BAFD3428979C4C005F6F49 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		8A44A64F216540AFFE2EBDD2 /* libPods-SHSwiftHybirdCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHSwiftHybirdCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DEECE0FB789CDC9C603B71 /* Pods-SHSwiftHybirdCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHSwiftHybirdCode.release.xcconfig"; path = "Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode.release.xcconfig"; sourceTree = "<group>"; };
+		DEC7E3DAF1D1ED18F8DF9601 /* Pods-SHSwiftHybirdCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHSwiftHybirdCode.debug.xcconfig"; path = "Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044A4A2028F6517500F79A94 /* Lottie in Frameworks */,
+				2AD9EB0440F50C9D8D55F6D2 /* libPods-SHSwiftHybirdCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,10 +300,13 @@
 		041DC7DD28811502003970A3 = {
 			isa = PBXGroup;
 			children = (
+				042551BF290A20AE0063B595 /* Podfile */,
 				041DC7E828811502003970A3 /* SHSwiftHybirdCode */,
 				041DC7FF28811503003970A3 /* SHSwiftHybirdCodeTests */,
 				041DC80928811503003970A3 /* SHSwiftHybirdCodeUITests */,
 				041DC7E728811502003970A3 /* Products */,
+				818CDD453E568AA4391F9755 /* Pods */,
+				F44AB72511C154FAEB47DB90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -381,6 +399,7 @@
 		041DC82528813AD1003970A3 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				042551C5290A5A150063B595 /* Module */,
 				041DC83628815F26003970A3 /* Utility */,
 				041DC82728813AE8003970A3 /* Extension */,
 			);
@@ -459,6 +478,22 @@
 			path = Debug;
 			sourceTree = "<group>";
 		};
+		042551C5290A5A150063B595 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				042551C6290A5A2B0063B595 /* Location */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		042551C6290A5A2B0063B595 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				042551C7290A5A3D0063B595 /* LocationWrapper.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		042A7D8F28C5DECD00F6A8E1 /* MVVMExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -520,6 +555,9 @@
 		044A4A0F28F10B9E00F79A94 /* NaverMap */ = {
 			isa = PBXGroup;
 			children = (
+				044A4A82290A112200F79A94 /* NaverMapViewController.swift */,
+				042551C1290A24DA0063B595 /* NaverMapView.swift */,
+				042551C3290A53270063B595 /* NaverMapManager.swift */,
 			);
 			path = NaverMap;
 			sourceTree = "<group>";
@@ -1015,6 +1053,23 @@
 			path = Review;
 			sourceTree = "<group>";
 		};
+		818CDD453E568AA4391F9755 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEC7E3DAF1D1ED18F8DF9601 /* Pods-SHSwiftHybirdCode.debug.xcconfig */,
+				A3DEECE0FB789CDC9C603B71 /* Pods-SHSwiftHybirdCode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F44AB72511C154FAEB47DB90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A44A64F216540AFFE2EBDD2 /* libPods-SHSwiftHybirdCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1022,9 +1077,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041DC81028811503003970A3 /* Build configuration list for PBXNativeTarget "SHSwiftHybirdCode" */;
 			buildPhases = (
+				4D6DF1B348C29AF0B4543C16 /* [CP] Check Pods Manifest.lock */,
 				041DC7E228811502003970A3 /* Sources */,
 				041DC7E328811502003970A3 /* Frameworks */,
 				041DC7E428811502003970A3 /* Resources */,
+				DE6EF5289A5C2F5659D19E06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1137,6 +1194,7 @@
 				044A4A2528F6526500F79A94 /* ti_scan.json in Resources */,
 				044A4A7B28FF8CA800F79A94 /* converse_obj.scn in Resources */,
 				04688FA228894D87002F32D2 /* Nunito-Bold.ttf in Resources */,
+				042551C0290A20AE0063B595 /* Podfile in Resources */,
 				041DC7F328811503003970A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1157,16 +1215,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D6DF1B348C29AF0B4543C16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHSwiftHybirdCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6EF5289A5C2F5659D19E06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041DC7E228811502003970A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
+				042551C4290A53270063B595 /* NaverMapManager.swift in Sources */,
+				042551C8290A5A3D0063B595 /* LocationWrapper.swift in Sources */,
 				04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */,
 				044A4A1428F2AF7C00F79A94 /* CustomCameraTestView.swift in Sources */,
 				044A4A3028F657A500F79A94 /* NotificationConstants.swift in Sources */,
+				044A4A83290A112200F79A94 /* NaverMapViewController.swift in Sources */,
 				04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */,
+				042551C2290A24DA0063B595 /* NaverMapView.swift in Sources */,
 				04688F9C288942ED002F32D2 /* RestaurantModel.swift in Sources */,
 				04B555FD28BCB33A0031EEE6 /* EnvironmentObjectExampleBViewController.swift in Sources */,
 				041DC82028811AE4003970A3 /* ChapterIIIView.swift in Sources */,
@@ -1416,6 +1520,7 @@
 		};
 		041DC81128811503003970A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC7E3DAF1D1ED18F8DF9601 /* Pods-SHSwiftHybirdCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1445,6 +1550,7 @@
 		};
 		041DC81228811503003970A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DEECE0FB789CDC9C603B71 /* Pods-SHSwiftHybirdCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
