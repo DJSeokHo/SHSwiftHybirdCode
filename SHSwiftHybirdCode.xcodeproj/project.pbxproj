@@ -29,6 +29,8 @@
 		042551C2290A24DA0063B595 /* NaverMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551C1290A24DA0063B595 /* NaverMapView.swift */; };
 		042551C4290A53270063B595 /* NaverMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551C3290A53270063B595 /* NaverMapManager.swift */; };
 		042551C8290A5A3D0063B595 /* LocationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551C7290A5A3D0063B595 /* LocationWrapper.swift */; };
+		042551CB290B92050063B595 /* DrawerMenuExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551CA290B92050063B595 /* DrawerMenuExampleViewController.swift */; };
+		042551CD290B92140063B595 /* DrawerMenuExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042551CC290B92140063B595 /* DrawerMenuExampleView.swift */; };
 		042A7D8A28BDFE1500F6A8E1 /* SubContentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */; };
 		042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */; };
 		042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */; };
@@ -163,10 +165,12 @@
 		041DC83428815E14003970A3 /* TopAppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppBarView.swift; sourceTree = "<group>"; };
 		041DC83828815F3D003970A3 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		041DC83C28815FDD003970A3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		042551BF290A20AE0063B595 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		042551BF290A20AE0063B595 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		042551C1290A24DA0063B595 /* NaverMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapView.swift; sourceTree = "<group>"; };
 		042551C3290A53270063B595 /* NaverMapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapManager.swift; sourceTree = "<group>"; };
 		042551C7290A5A3D0063B595 /* LocationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWrapper.swift; sourceTree = "<group>"; };
+		042551CA290B92050063B595 /* DrawerMenuExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuExampleViewController.swift; sourceTree = "<group>"; };
+		042551CC290B92140063B595 /* DrawerMenuExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuExampleView.swift; sourceTree = "<group>"; };
 		042A7D8928BDFE1500F6A8E1 /* SubContentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentHomeViewController.swift; sourceTree = "<group>"; };
 		042A7D8B28BE015300F6A8E1 /* SubContentFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentFavoriteViewController.swift; sourceTree = "<group>"; };
 		042A7D8D28BE0A1100F6A8E1 /* SubContentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentProfileViewController.swift; sourceTree = "<group>"; };
@@ -492,6 +496,15 @@
 				042551C7290A5A3D0063B595 /* LocationWrapper.swift */,
 			);
 			path = Location;
+			sourceTree = "<group>";
+		};
+		042551C9290B91E90063B595 /* DrawerMenuExample */ = {
+			isa = PBXGroup;
+			children = (
+				042551CA290B92050063B595 /* DrawerMenuExampleViewController.swift */,
+				042551CC290B92140063B595 /* DrawerMenuExampleView.swift */,
+			);
+			path = DrawerMenuExample;
 			sourceTree = "<group>";
 		};
 		042A7D8F28C5DECD00F6A8E1 /* MVVMExample */ = {
@@ -918,6 +931,7 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				042551C9290B91E90063B595 /* DrawerMenuExample */,
 				044A4A5E28FF843200F79A94 /* Scene3DModelExample */,
 				044A4A5528FE6D8600F79A94 /* SceneExample */,
 				044A4A4128F81CE500F79A94 /* ARExample */,
@@ -1267,6 +1281,7 @@
 				042551C8290A5A3D0063B595 /* LocationWrapper.swift in Sources */,
 				04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */,
 				044A4A1428F2AF7C00F79A94 /* CustomCameraTestView.swift in Sources */,
+				042551CD290B92140063B595 /* DrawerMenuExampleView.swift in Sources */,
 				044A4A3028F657A500F79A94 /* NotificationConstants.swift in Sources */,
 				044A4A83290A112200F79A94 /* NaverMapViewController.swift in Sources */,
 				04383B6628C7407000989D2E /* ThreadUtility.swift in Sources */,
@@ -1299,6 +1314,7 @@
 				04688FAE28927F98002F32D2 /* MapView.swift in Sources */,
 				04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */,
 				044A4A3928F691FD00F79A94 /* ImageSimilarityCameraView.swift in Sources */,
+				042551CB290B92050063B595 /* DrawerMenuExampleViewController.swift in Sources */,
 				041DC82B28813F09003970A3 /* ChapterIIIViewController.swift in Sources */,
 				044A4A3E28F7EED600F79A94 /* ImageUtility.swift in Sources */,
 				041DC83528815E14003970A3 /* TopAppBarView.swift in Sources */,
@@ -1542,6 +1558,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swein.SHSwiftHybirdCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1572,6 +1591,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swein.SHSwiftHybirdCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

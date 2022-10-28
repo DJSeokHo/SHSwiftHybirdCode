@@ -97,7 +97,8 @@ class MainViewController: UIViewController {
 //                ARExampleViewController.start(viewController: self)
 //                SceneExampleViewController.start(viewController: self)
 //                Scene3DModelExampleViewController.start(viewController: self)
-                NaverMapViewController.start(viewController: self)
+//                NaverMapViewController.start(viewController: self)
+                DrawerMenuExampleViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }
