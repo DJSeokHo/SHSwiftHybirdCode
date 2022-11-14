@@ -96,6 +96,7 @@
 		04688FA8289178AD002F32D2 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */; };
 		04688FAA289178BC002F32D2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */; };
 		04688FAE28927F98002F32D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688FAD28927F98002F32D2 /* MapView.swift */; };
+		048B30B12921E0B60030EBE5 /* UserDefaultsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B30B02921E0B60030EBE5 /* UserDefaultsUtility.swift */; };
 		04A8288328D0B2EA00D92AAC /* ImageSimilarityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288228D0B2EA00D92AAC /* ImageSimilarityViewController.swift */; };
 		04A8288728D0B3BF00D92AAC /* SwiftUIBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */; };
 		04A8288928D0B3C800D92AAC /* SwiftUIBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8288828D0B3C800D92AAC /* SwiftUIBasicView.swift */; };
@@ -235,6 +236,7 @@
 		04688FA7289178AD002F32D2 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		04688FA9289178BC002F32D2 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		04688FAD28927F98002F32D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		048B30B02921E0B60030EBE5 /* UserDefaultsUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtility.swift; sourceTree = "<group>"; };
 		04A8288228D0B2EA00D92AAC /* ImageSimilarityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSimilarityViewController.swift; sourceTree = "<group>"; };
 		04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicViewController.swift; sourceTree = "<group>"; };
 		04A8288828D0B3C800D92AAC /* SwiftUIBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicView.swift; sourceTree = "<group>"; };
@@ -465,6 +467,7 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				048B30AF2921E0A70030EBE5 /* UserDefaults */,
 				044A4A3C28F7EEC900F79A94 /* Image */,
 				044A4A2B28F655F900F79A94 /* NotificationCenter */,
 				04383B6428C7406800989D2E /* Thread */,
@@ -846,6 +849,14 @@
 				04688FAD28927F98002F32D2 /* MapView.swift */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		048B30AF2921E0A70030EBE5 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				048B30B02921E0B60030EBE5 /* UserDefaultsUtility.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 		04A8288128D0B2D700D92AAC /* ImageSimilarity */ = {
@@ -1291,6 +1302,7 @@
 				041DC82028811AE4003970A3 /* ChapterIIIView.swift in Sources */,
 				044A4A6028FF844C00F79A94 /* Scene3DModelExampleViewController.swift in Sources */,
 				042A7D9728C6311800F6A8E1 /* MVVMExampleModel.swift in Sources */,
+				048B30B12921E0B60030EBE5 /* UserDefaultsUtility.swift in Sources */,
 				041DC7EA28811502003970A3 /* AppDelegate.swift in Sources */,
 				04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */,
 				044A4A0D28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift in Sources */,

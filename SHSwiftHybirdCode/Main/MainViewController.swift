@@ -80,7 +80,7 @@ class MainViewController: UIViewController {
         //        EnvironmentObjectExampleAViewController.start(viewController: self)
                 
         //        MVVMExampleViewController.start(viewController: self)
-        //        BottomNavigationExampleViewController.start(viewController: self)
+                BottomNavigationExampleViewController.start(viewController: self)
         //        CustomCameraTestViewController.start(viewController: self)
 //                QRCameraViewController.start(viewController: self, tag: #file)
                 
@@ -98,7 +98,7 @@ class MainViewController: UIViewController {
 //                SceneExampleViewController.start(viewController: self)
 //                Scene3DModelExampleViewController.start(viewController: self)
 //                NaverMapViewController.start(viewController: self)
-                DrawerMenuExampleViewController.start(viewController: self)
+//                DrawerMenuExampleViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }
