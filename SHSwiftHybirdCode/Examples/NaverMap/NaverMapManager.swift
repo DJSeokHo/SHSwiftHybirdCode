@@ -35,8 +35,8 @@ import NMapsMap
  */
 class NaverMapManager: NSObject, NMFMapViewCameraDelegate {
     
-    public static let CLIENT_ID = "lsw4h15akx"
-    public static let CLIENT_SECRET = "z5Y8jsygdQbacKFw13cCvHJa01XturW0mloemx4f"
+    public static let CLIENT_ID = "spm9jgg0uh"
+    public static let CLIENT_SECRET = "NRlO4inmLLTQ8AjrkPoNpbRS18bCX03gapz9Y3s5"
     
     public static let instance = NaverMapManager()
     private override init() {}

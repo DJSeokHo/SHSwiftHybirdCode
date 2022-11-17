@@ -333,6 +333,7 @@
 				044A4A2E28F6579600F79A94 /* Constants */,
 				044A4A2228F6525100F79A94 /* Resource */,
 				04A8288428D0B39000D92AAC /* SwiftUIBasic */,
+				04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */,
 				04B555B528B5B1C90031EEE6 /* Examples */,
 				041DC83128815DF0003970A3 /* Common */,
 				041DC82528813AD1003970A3 /* Framework */,
@@ -876,7 +877,6 @@
 				04A8288F28D0B64700D92AAC /* VStackExample */,
 				04A8288C28D0B58800D92AAC /* ScrollViewExample */,
 				04A8288528D0B39A00D92AAC /* ZStackExample */,
-				04A8288628D0B3BF00D92AAC /* SwiftUIBasicViewController.swift */,
 				04A8288828D0B3C800D92AAC /* SwiftUIBasicView.swift */,
 			);
 			path = SwiftUIBasic;
