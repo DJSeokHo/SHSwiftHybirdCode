@@ -28,11 +28,19 @@ struct ListWithRefreshAndLoadMoreView: View {
                 .white
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
             
-            ListView(
-                list: viewModel.list,
-                onReload: delegate.onReload,
-                onLoadMore: delegate.onLoadMore
-            )
+            VStack {
+             
+                Spacer()
+                    .frame(height: 60)
+                
+                ListView(
+                    list: viewModel.list,
+                    onReload: delegate.onReload,
+                    onLoadMore: delegate.onLoadMore
+                )
+                
+            }
+            
             
             if viewModel.loading {
                 CustomProgressView()

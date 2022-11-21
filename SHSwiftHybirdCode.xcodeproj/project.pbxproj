@@ -112,6 +112,8 @@
 		04A884AE292B1B4300269BEA /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884AD292B1B4300269BEA /* CustomProgressView.swift */; };
 		04A884B1292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884B0292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift */; };
 		04A884B3292B2E2D00269BEA /* ScrollableTabViewPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */; };
+		04A884C7292B6B7300269BEA /* UUIDUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884C6292B6B7300269BEA /* UUIDUtility.swift */; };
+		04A884CD292B6C1200269BEA /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884CC292B6C1200269BEA /* DateUtility.swift */; };
 		04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */; };
 		04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559D28B476F40031EEE6 /* ChapterXXView.swift */; };
 		04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */; };
@@ -258,6 +260,8 @@
 		04A884AD292B1B4300269BEA /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		04A884B0292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabViewPagerViewController.swift; sourceTree = "<group>"; };
 		04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabViewPagerView.swift; sourceTree = "<group>"; };
+		04A884C6292B6B7300269BEA /* UUIDUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDUtility.swift; sourceTree = "<group>"; };
+		04A884CC292B6C1200269BEA /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
 		04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXViewController.swift; sourceTree = "<group>"; };
 		04B5559D28B476F40031EEE6 /* ChapterXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXView.swift; sourceTree = "<group>"; };
 		04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAbleButtonViewController.swift; sourceTree = "<group>"; };
@@ -481,6 +485,8 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				04A884CB292B6C0900269BEA /* Date */,
+				04A884C5292B6B6900269BEA /* UUID */,
 				048B30AF2921E0A70030EBE5 /* UserDefaults */,
 				044A4A3C28F7EEC900F79A94 /* Image */,
 				044A4A2B28F655F900F79A94 /* NotificationCenter */,
@@ -970,6 +976,22 @@
 			path = ScrollableTabViewPager;
 			sourceTree = "<group>";
 		};
+		04A884C5292B6B6900269BEA /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				04A884C6292B6B7300269BEA /* UUIDUtility.swift */,
+			);
+			path = UUID;
+			sourceTree = "<group>";
+		};
+		04A884CB292B6C0900269BEA /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				04A884CC292B6C1200269BEA /* DateUtility.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		04B5559A28B476C00031EEE6 /* ChapterXX */ = {
 			isa = PBXGroup;
 			children = (
@@ -1362,6 +1384,7 @@
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,
 				041DC8302881492F003970A3 /* ChapterIVView.swift in Sources */,
 				04383B7028C8903100989D2E /* CVRPreviewViewController.swift in Sources */,
+				04A884C7292B6B7300269BEA /* UUIDUtility.swift in Sources */,
 				04383B7428C8904200989D2E /* CVRPreviewViewModel.swift in Sources */,
 				04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */,
 				04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */,
@@ -1392,6 +1415,7 @@
 				044A4A5728FE6D9800F79A94 /* SceneExampleViewController.swift in Sources */,
 				044A4A4528F9401800F79A94 /* ARViewController.swift in Sources */,
 				041DC7EC28811502003970A3 /* SceneDelegate.swift in Sources */,
+				04A884CD292B6C1200269BEA /* DateUtility.swift in Sources */,
 				04A8288E28D0B59B00D92AAC /* ScrollExample.swift in Sources */,
 				04383B6B28C88F1000989D2E /* CVRCameraView.swift in Sources */,
 				04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */,
