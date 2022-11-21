@@ -110,6 +110,8 @@
 		04A884A9292B0E1D00269BEA /* ListWithRefreshAndLoadMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884A8292B0E1D00269BEA /* ListWithRefreshAndLoadMoreView.swift */; };
 		04A884AB292B0E7500269BEA /* ListWithRefreshAndLoadMoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884AA292B0E7500269BEA /* ListWithRefreshAndLoadMoreViewModel.swift */; };
 		04A884AE292B1B4300269BEA /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884AD292B1B4300269BEA /* CustomProgressView.swift */; };
+		04A884B1292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884B0292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift */; };
+		04A884B3292B2E2D00269BEA /* ScrollableTabViewPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */; };
 		04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */; };
 		04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559D28B476F40031EEE6 /* ChapterXXView.swift */; };
 		04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */; };
@@ -254,6 +256,8 @@
 		04A884A8292B0E1D00269BEA /* ListWithRefreshAndLoadMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithRefreshAndLoadMoreView.swift; sourceTree = "<group>"; };
 		04A884AA292B0E7500269BEA /* ListWithRefreshAndLoadMoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithRefreshAndLoadMoreViewModel.swift; sourceTree = "<group>"; };
 		04A884AD292B1B4300269BEA /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		04A884B0292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabViewPagerViewController.swift; sourceTree = "<group>"; };
+		04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabViewPagerView.swift; sourceTree = "<group>"; };
 		04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXViewController.swift; sourceTree = "<group>"; };
 		04B5559D28B476F40031EEE6 /* ChapterXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXView.swift; sourceTree = "<group>"; };
 		04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAbleButtonViewController.swift; sourceTree = "<group>"; };
@@ -957,6 +961,15 @@
 			path = Progress;
 			sourceTree = "<group>";
 		};
+		04A884AF292B2DDB00269BEA /* ScrollableTabViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				04A884B0292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift */,
+				04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */,
+			);
+			path = ScrollableTabViewPager;
+			sourceTree = "<group>";
+		};
 		04B5559A28B476C00031EEE6 /* ChapterXX */ = {
 			isa = PBXGroup;
 			children = (
@@ -969,6 +982,7 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				04A884AF292B2DDB00269BEA /* ScrollableTabViewPager */,
 				04A884A5292B0DEC00269BEA /* ListWithRefreshAndLoadMore */,
 				042551C9290B91E90063B595 /* DrawerMenuExample */,
 				044A4A5E28FF843200F79A94 /* Scene3DModelExample */,
@@ -1335,6 +1349,7 @@
 				048B30B12921E0B60030EBE5 /* UserDefaultsUtility.swift in Sources */,
 				041DC7EA28811502003970A3 /* AppDelegate.swift in Sources */,
 				04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */,
+				04A884B3292B2E2D00269BEA /* ScrollableTabViewPagerView.swift in Sources */,
 				044A4A0D28F0732600F79A94 /* StateObjectAndObservedObjectExampleView.swift in Sources */,
 				041DC83928815F3D003970A3 /* Debug.swift in Sources */,
 				044A4A1D28F64B3F00F79A94 /* QRCameraView.swift in Sources */,
@@ -1370,6 +1385,7 @@
 				04B555FF28BCB3490031EEE6 /* EnvironmentObjectExampleModel.swift in Sources */,
 				04A8289C28D0BC7F00D92AAC /* ScrollViewReaderExample.swift in Sources */,
 				04B555C728B5FA820031EEE6 /* TextFieldView.swift in Sources */,
+				04A884B1292B2DF000269BEA /* ScrollableTabViewPagerViewController.swift in Sources */,
 				04688FA5289027CD002F32D2 /* ActivityView.swift in Sources */,
 				042A7D8C28BE015300F6A8E1 /* SubContentFavoriteViewController.swift in Sources */,
 				041DC82E288148DD003970A3 /* ChapterIVViewController.swift in Sources */,
