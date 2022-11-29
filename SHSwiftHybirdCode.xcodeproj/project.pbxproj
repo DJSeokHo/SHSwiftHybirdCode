@@ -114,6 +114,7 @@
 		04A884B3292B2E2D00269BEA /* ScrollableTabViewPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */; };
 		04A884C7292B6B7300269BEA /* UUIDUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884C6292B6B7300269BEA /* UUIDUtility.swift */; };
 		04A884CD292B6C1200269BEA /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884CC292B6C1200269BEA /* DateUtility.swift */; };
+		04A884EC292CBB5B00269BEA /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A884EB292CBB5B00269BEA /* CommonUtility.swift */; };
 		04B5559C28B476ED0031EEE6 /* ChapterXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */; };
 		04B5559E28B476F40031EEE6 /* ChapterXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5559D28B476F40031EEE6 /* ChapterXXView.swift */; };
 		04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */; };
@@ -262,6 +263,7 @@
 		04A884B2292B2E2D00269BEA /* ScrollableTabViewPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabViewPagerView.swift; sourceTree = "<group>"; };
 		04A884C6292B6B7300269BEA /* UUIDUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDUtility.swift; sourceTree = "<group>"; };
 		04A884CC292B6C1200269BEA /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		04A884EB292CBB5B00269BEA /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
 		04B5559B28B476ED0031EEE6 /* ChapterXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXViewController.swift; sourceTree = "<group>"; };
 		04B5559D28B476F40031EEE6 /* ChapterXXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXXView.swift; sourceTree = "<group>"; };
 		04B555B728B5B1E10031EEE6 /* PressAbleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAbleButtonViewController.swift; sourceTree = "<group>"; };
@@ -485,6 +487,7 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				04A884EA292CBB4F00269BEA /* Common */,
 				04A884CB292B6C0900269BEA /* Date */,
 				04A884C5292B6B6900269BEA /* UUID */,
 				048B30AF2921E0A70030EBE5 /* UserDefaults */,
@@ -576,6 +579,13 @@
 				04383B7328C8904200989D2E /* CVRPreviewViewModel.swift */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		044562932930861900E6E0CE /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoPicker;
 			sourceTree = "<group>";
 		};
 		044A4A0728F03D1200F79A94 /* StateObjectAndObservedObjectExample */ = {
@@ -992,6 +1002,14 @@
 			path = Date;
 			sourceTree = "<group>";
 		};
+		04A884EA292CBB4F00269BEA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04A884EB292CBB5B00269BEA /* CommonUtility.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		04B5559A28B476C00031EEE6 /* ChapterXX */ = {
 			isa = PBXGroup;
 			children = (
@@ -1004,6 +1022,7 @@
 		04B555B528B5B1C90031EEE6 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				044562932930861900E6E0CE /* PhotoPicker */,
 				04A884AF292B2DDB00269BEA /* ScrollableTabViewPager */,
 				04A884A5292B0DEC00269BEA /* ListWithRefreshAndLoadMore */,
 				042551C9290B91E90063B595 /* DrawerMenuExample */,
@@ -1379,6 +1398,7 @@
 				041DC83D28815FDD003970A3 /* ColorExtension.swift in Sources */,
 				042A7D8E28BE0A1100F6A8E1 /* SubContentProfileViewController.swift in Sources */,
 				04B555F728BCB1730031EEE6 /* StateExampleViewController.swift in Sources */,
+				04A884EC292CBB5B00269BEA /* CommonUtility.swift in Sources */,
 				04A8288B28D0B42A00D92AAC /* ZStackExampleView.swift in Sources */,
 				041DC82928813AFA003970A3 /* UIViewControllerExtension.swift in Sources */,
 				041DC81C28811734003970A3 /* MainView.swift in Sources */,

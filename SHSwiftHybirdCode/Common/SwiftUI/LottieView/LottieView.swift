@@ -9,8 +9,8 @@ import SwiftUI
 import Lottie
  
 struct LottieView: UIViewRepresentable {
+    
     let lottieFile: String
- 
     let animationView = LottieAnimationView()
  
     func makeUIView(context: Context) -> some UIView {
