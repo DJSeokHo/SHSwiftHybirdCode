@@ -81,7 +81,7 @@ class MainViewController: UIViewController {
                 
         //        MVVMExampleViewController.start(viewController: self)
 //                BottomNavigationExampleViewController.start(viewController: self)
-                CustomCameraTestViewController.start(viewController: self)
+//                CustomCameraTestViewController.start(viewController: self)
 //                QRCameraViewController.start(viewController: self, tag: #file)
                 
         //        SwiftUIBasicViewController.start(viewController: self)
@@ -100,7 +100,7 @@ class MainViewController: UIViewController {
 //                NaverMapViewController.start(viewController: self)
 //                DrawerMenuExampleViewController.start(viewController: self)
 //                ListWithRefreshAndLoadMoreViewController.start(viewController: self)
-//                ScrollableTabViewPagerViewController.start(viewController: self)
+                ScrollableTabViewPagerViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }

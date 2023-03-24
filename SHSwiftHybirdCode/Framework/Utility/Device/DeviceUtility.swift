@@ -20,4 +20,17 @@ class DeviceUtility {
         return isNotchScreen
     }
     
+    public static func openAppSettingPage() {
+        
+        if #available(iOS 10, *) {
+            UIApplication.shared.open(URL.init(string: UIApplication.openSettingsURLString)!, options: [:],
+                                      completionHandler: {
+                                        (success) in
+            })
+        }
+        else {
+            UIApplication.shared.openURL(URL.init(string: UIApplication.openSettingsURLString)!)
+        }
+        
+    }
 }

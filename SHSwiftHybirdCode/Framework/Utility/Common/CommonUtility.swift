@@ -9,6 +9,12 @@ import Foundation
 import UIKit
 import SafariServices
 
+public func getRString(recourceName string: String) -> String {
+    
+    return NSLocalizedString(string, comment: "")
+    
+}
+
 class CommonUtility {
     
     public static func scrollBounces(toggle: Bool) {

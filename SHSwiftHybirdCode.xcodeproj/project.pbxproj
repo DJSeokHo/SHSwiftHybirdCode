@@ -132,6 +132,10 @@
 		04BAFD2E28979581005F6F49 /* DetailFullMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */; };
 		04BAFD302897958A005F6F49 /* DetailFullMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */; };
 		04BAFD3528979C4C005F6F49 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFD3428979C4C005F6F49 /* ReviewView.swift */; };
+		04C921CA29BAFBE600BBD526 /* JSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C921C929BAFBE600BBD526 /* JSONUtility.swift */; };
+		04C921CE29BAFCD300BBD526 /* StorageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C921CD29BAFCD300BBD526 /* StorageUtility.swift */; };
+		04C921D229BB016500BBD526 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04C921D129BB016500BBD526 /* Alamofire */; };
+		04C921D429BB017B00BBD526 /* HttpWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C921D329BB017B00BBD526 /* HttpWrapper.swift */; };
 		2AD9EB0440F50C9D8D55F6D2 /* libPods-SHSwiftHybirdCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A44A64F216540AFFE2EBDD2 /* libPods-SHSwiftHybirdCode.a */; };
 /* End PBXBuildFile section */
 
@@ -281,6 +285,9 @@
 		04BAFD2D28979581005F6F49 /* DetailFullMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapViewController.swift; sourceTree = "<group>"; };
 		04BAFD2F2897958A005F6F49 /* DetailFullMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFullMapView.swift; sourceTree = "<group>"; };
 		04BAFD3428979C4C005F6F49 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		04C921C929BAFBE600BBD526 /* JSONUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtility.swift; sourceTree = "<group>"; };
+		04C921CD29BAFCD300BBD526 /* StorageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUtility.swift; sourceTree = "<group>"; };
+		04C921D329BB017B00BBD526 /* HttpWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpWrapper.swift; sourceTree = "<group>"; };
 		8A44A64F216540AFFE2EBDD2 /* libPods-SHSwiftHybirdCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHSwiftHybirdCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DEECE0FB789CDC9C603B71 /* Pods-SHSwiftHybirdCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHSwiftHybirdCode.release.xcconfig"; path = "Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode.release.xcconfig"; sourceTree = "<group>"; };
 		DEC7E3DAF1D1ED18F8DF9601 /* Pods-SHSwiftHybirdCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHSwiftHybirdCode.debug.xcconfig"; path = "Target Support Files/Pods-SHSwiftHybirdCode/Pods-SHSwiftHybirdCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +298,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C921D229BB016500BBD526 /* Alamofire in Frameworks */,
 				044A4A2028F6517500F79A94 /* Lottie in Frameworks */,
 				2AD9EB0440F50C9D8D55F6D2 /* libPods-SHSwiftHybirdCode.a in Frameworks */,
 			);
@@ -487,6 +495,9 @@
 		041DC83628815F26003970A3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				04C921CF29BAFD4700BBD526 /* Http */,
+				04C921CC29BAFCBF00BBD526 /* Storage */,
+				04C921C829BAFBD600BBD526 /* JSON */,
 				04A884EA292CBB4F00269BEA /* Common */,
 				04A884CB292B6C0900269BEA /* Date */,
 				04A884C5292B6B6900269BEA /* UUID */,
@@ -1161,6 +1172,30 @@
 			path = Review;
 			sourceTree = "<group>";
 		};
+		04C921C829BAFBD600BBD526 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				04C921C929BAFBE600BBD526 /* JSONUtility.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		04C921CC29BAFCBF00BBD526 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				04C921CD29BAFCD300BBD526 /* StorageUtility.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		04C921CF29BAFD4700BBD526 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				04C921D329BB017B00BBD526 /* HttpWrapper.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		818CDD453E568AA4391F9755 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1198,6 +1233,7 @@
 			name = SHSwiftHybirdCode;
 			packageProductDependencies = (
 				044A4A1F28F6517500F79A94 /* Lottie */,
+				04C921D129BB016500BBD526 /* Alamofire */,
 			);
 			productName = SHSwiftHybirdCode;
 			productReference = 041DC7E628811502003970A3 /* SHSwiftHybirdCode.app */;
@@ -1273,6 +1309,7 @@
 			mainGroup = 041DC7DD28811502003970A3;
 			packageReferences = (
 				044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				04C921D029BB016500BBD526 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 041DC7E728811502003970A3 /* Products */;
 			projectDirPath = "";
@@ -1371,6 +1408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B5560328BCF4190031EEE6 /* SingletonExample.swift in Sources */,
+				04C921D429BB017B00BBD526 /* HttpWrapper.swift in Sources */,
 				042551C4290A53270063B595 /* NaverMapManager.swift in Sources */,
 				042551C8290A5A3D0063B595 /* LocationWrapper.swift in Sources */,
 				04383B7228C8903900989D2E /* CVRPreviewView.swift in Sources */,
@@ -1441,6 +1479,7 @@
 				04B555B828B5B1E10031EEE6 /* PressAbleButtonViewController.swift in Sources */,
 				04383B6928C88EC500989D2E /* CVRCameraViewController.swift in Sources */,
 				044A4A3228F6639A00F79A94 /* QRCameraViewModel.swift in Sources */,
+				04C921CE29BAFCD300BBD526 /* StorageUtility.swift in Sources */,
 				041DC82428811CCD003970A3 /* MainViewController.swift in Sources */,
 				04A8289128D0B65B00D92AAC /* VStackExample.swift in Sources */,
 				04B555C928B5FF350031EEE6 /* ViewExtension.swift in Sources */,
@@ -1476,6 +1515,7 @@
 				042A7D9528C5DF0800F6A8E1 /* MVVMExampleView.swift in Sources */,
 				044A4A4928F9432B00F79A94 /* ARExampleView.swift in Sources */,
 				044A4A4028F7F76000F79A94 /* ImageSimilarityCameraViewModel.swift in Sources */,
+				04C921CA29BAFBE600BBD526 /* JSONUtility.swift in Sources */,
 				044A4A0B28F071D100F79A94 /* SOAOOExampleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1830,6 +1870,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		04C921D029BB016500BBD526 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1837,6 +1885,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		04C921D129BB016500BBD526 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C921D029BB016500BBD526 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
