@@ -96,11 +96,12 @@ class MainViewController: UIViewController {
                 
 //                ARExampleViewController.start(viewController: self)
 //                SceneExampleViewController.start(viewController: self)
-//                Scene3DModelExampleViewController.start(viewController: self)
+                Scene3DModelExampleViewController.start(viewController: self)
 //                NaverMapViewController.start(viewController: self)
 //                DrawerMenuExampleViewController.start(viewController: self)
 //                ListWithRefreshAndLoadMoreViewController.start(viewController: self)
-                ScrollableTabViewPagerViewController.start(viewController: self)
+                
+//                ScrollableTabViewPagerViewController.start(viewController: self)
                 
             }, afterSeconds: 1)
         }

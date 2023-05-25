@@ -83,6 +83,7 @@
 		044A4A7B28FF8CA800F79A94 /* converse_obj.scn in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A7A28FF8CA800F79A94 /* converse_obj.scn */; };
 		044A4A7F28FF977000F79A94 /* 3d_model_animation_kalug.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 044A4A7E28FF977000F79A94 /* 3d_model_animation_kalug.usdz */; };
 		044A4A83290A112200F79A94 /* NaverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A4A82290A112200F79A94 /* NaverMapViewController.swift */; };
+		044FE7FC2A1C626A0032403C /* GLTFSceneKit in Frameworks */ = {isa = PBXBuildFile; productRef = 044FE7FB2A1C626A0032403C /* GLTFSceneKit */; };
 		04688F8D28827C43002F32D2 /* ChapterIVHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8C28827C43002F32D2 /* ChapterIVHomeworkViewController.swift */; };
 		04688F8F28827C50002F32D2 /* ChapterIVHomeworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F8E28827C50002F32D2 /* ChapterIVHomeworkView.swift */; };
 		04688F922882D3BF002F32D2 /* ChapterVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04688F912882D3BF002F32D2 /* ChapterVIViewController.swift */; };
@@ -301,6 +302,7 @@
 				04C921D229BB016500BBD526 /* Alamofire in Frameworks */,
 				044A4A2028F6517500F79A94 /* Lottie in Frameworks */,
 				2AD9EB0440F50C9D8D55F6D2 /* libPods-SHSwiftHybirdCode.a in Frameworks */,
+				044FE7FC2A1C626A0032403C /* GLTFSceneKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1234,6 +1236,7 @@
 			packageProductDependencies = (
 				044A4A1F28F6517500F79A94 /* Lottie */,
 				04C921D129BB016500BBD526 /* Alamofire */,
+				044FE7FB2A1C626A0032403C /* GLTFSceneKit */,
 			);
 			productName = SHSwiftHybirdCode;
 			productReference = 041DC7E628811502003970A3 /* SHSwiftHybirdCode.app */;
@@ -1310,6 +1313,7 @@
 			packageReferences = (
 				044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				04C921D029BB016500BBD526 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				044FE7FA2A1C626A0032403C /* XCRemoteSwiftPackageReference "GLTFSceneKit" */,
 			);
 			productRefGroup = 041DC7E728811502003970A3 /* Products */;
 			projectDirPath = "";
@@ -1870,6 +1874,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		044FE7FA2A1C626A0032403C /* XCRemoteSwiftPackageReference "GLTFSceneKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magicien/GLTFSceneKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
 		04C921D029BB016500BBD526 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -1885,6 +1897,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 044A4A1E28F6517500F79A94 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		044FE7FB2A1C626A0032403C /* GLTFSceneKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044FE7FA2A1C626A0032403C /* XCRemoteSwiftPackageReference "GLTFSceneKit" */;
+			productName = GLTFSceneKit;
 		};
 		04C921D129BB016500BBD526 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;

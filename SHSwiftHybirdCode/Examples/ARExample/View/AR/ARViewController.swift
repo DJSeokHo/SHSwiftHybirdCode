@@ -167,6 +167,7 @@ class ARViewController: UIViewController {
         let cube = SCNBox(width: dimension, height: dimension, length: dimension, chamferRadius: 0)
         let node = SCNNode(geometry: cube)
         
+        
         // physicsBody 会让 SceneKit 用物理引擎控制该几何体
 //        node.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
 //        node.physicsBody?.mass = 2
@@ -185,8 +186,16 @@ class ARViewController: UIViewController {
             node.rotation = SCNVector4Make(0, pointOfViewRotation.y, 0, pointOfViewRotation.w)
         }
         
-        arSceneView.scene.rootNode.addChildNode(node)
-        boxes.append(node)
+//        arSceneView.scene.rootNode.addChildNode(node)
+//        boxes.append(node)
+        
+        if let url = URL(string: "https://dl.dropboxusercontent.com/s/77wsgpz2zoalvkt/3d_model_animation_kalug.usdz") {
+            if let referenceNode = SCNReferenceNode(url: url) {
+                referenceNode.load()
+                arSceneView.scene.rootNode.addChildNode(referenceNode)
+            }
+        }
+       
     }
     
 //    func createRootNode() {
