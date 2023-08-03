@@ -32,6 +32,7 @@ struct DetailFullMapView: View {
                 
             }
             .ignoresSafeArea()
+            .navigationTitle("123123")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 

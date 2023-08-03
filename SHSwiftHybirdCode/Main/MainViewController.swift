@@ -88,7 +88,7 @@ class MainViewController: UIViewController {
                 
         //        ImageSimilarityViewController.start(viewController: self)
                 
-        //        StateObjectAndObservedObjectExampleViewController.start(viewController: self)
+//                StateObjectAndObservedObjectExampleViewController.start(viewController: self)
                 
 //                ImageSimilarityViewController.start(viewController: self)
                 

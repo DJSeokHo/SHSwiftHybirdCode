@@ -73,20 +73,14 @@ struct Test2: View {
     }
 }
 
-struct StateObjectAndObservedObjectExampleView_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        
-        Test1()
-        
-        Test2()
-    }
-}
 
 //使用不同的 propertywrapper 修饰相同的 ViewModel 对象
 //1，使用StateObject
 private struct CountViewState: View {
-    
+    /**
+     避免创建 @ObservedObject var testObject = TestObject() 这样的代码
+     原因上文中已经介绍了。ObservedObject 的正确用法为：@ObservedObject var testObject:TestObject 。通过从父视图传递一个可以保证存续期长于当前视图存续期的可观察对象，从而避免不可控的情况发生
+     */
     @StateObject
     var viewModel = SOAOOExampleViewModel(type:"StateObject")//1
     
@@ -103,8 +97,12 @@ private struct CountViewState: View {
 //2，使用ObservedObject
 private struct CountViewObserved: View {
     
+    /**
+     避免创建 @StateObject var testObject:TestObject 这样的代码
+     与 @ObservedObject var testObject = TestObject() 类似， @StateObject var testObject:TestObject 偶尔也会出现与预期不符的状况。例如，在某些情况下，开发者需要父视图不断地生成全新的可观察对象实例传递给子视图。但由于子视图中使用了 StateObject ，它只会保留首次传入的实例的强引用，后面传入的实例都将被忽略。尽量使用 @StateObject var testObject = TestObject() 这样不容易出现歧义表达的代码
+     */
     @ObservedObject
-    var viewModel = SOAOOExampleViewModel(type:"ObservedObject")//2
+    var viewModel = SOAOOExampleViewModel(type:"ObservedObject")//2 要避免这种情况，因为ObservedObject不稳定，最好是像下面的例子，传递进去比较好
     
     var body: some View {
         VStack {
@@ -129,5 +127,16 @@ private struct CountViewPassObserved: View{
                 viewModel.count += 1
             }
         }
+    }
+}
+
+
+struct StateObjectAndObservedObjectExampleView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        
+        Test1()
+        
+        Test2()
     }
 }

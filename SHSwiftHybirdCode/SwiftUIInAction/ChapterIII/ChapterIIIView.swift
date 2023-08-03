@@ -38,7 +38,6 @@ struct ChapterIIIView: View {
                         .frame(height: 20)
                 }
                
-                
                 TopAppBarView(
                     trailingImageName: "xmark",
                     trailingColor: "#FFFFFF",
