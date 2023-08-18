@@ -188,7 +188,7 @@ class ARViewController: UIViewController {
         
 //        arSceneView.scene.rootNode.addChildNode(node)
 //        boxes.append(node)
-        
+//        "https://dl.dropboxusercontent.com/scl/fi/soa24cai1hdwn6ldluqgi/lunaguin_blender_noMetal_ex_subd_tm.glb?rlkey=rh6s300hpy61x2bq6dbkkqt77&dl=0"
         if let url = URL(string: "https://dl.dropboxusercontent.com/s/77wsgpz2zoalvkt/3d_model_animation_kalug.usdz") {
             if let referenceNode = SCNReferenceNode(url: url) {
                 referenceNode.load()

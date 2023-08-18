@@ -45,7 +45,9 @@ class Scene3DModelViewController: UIViewController, URLSessionDelegate {
 //        guard let url = URL(string: "https://dl.dropboxusercontent.com/s/77wsgpz2zoalvkt/3d_model_animation_kalug.usdz?dl=0") else { return }
 //        guard let url = URL(string: "https://dl.dropboxusercontent.com/s/x6f83d5r8y3mbio/e_10_2_model.glb?dl=0") else { return }
 //        guard let url = URL(string: "https://dl.dropboxusercontent.com/scl/fi/braouq7rwz36p2d0nepfi/person_test_2.glb?rlkey=2s5vzyhtlekfpyav8e7emjl3f&dl=0") else { return }
-        guard let url = URL(string: "https://dl.dropboxusercontent.com/scl/fi/j4i02ozrpmrs933uxd2s9/f_animationlight2.glb?rlkey=lnuqdtt7s6cko90ldqrmiv9nz&dl=0") else { return }
+//        guard let url = URL(string: "https://dl.dropboxusercontent.com/scl/fi/j4i02ozrpmrs933uxd2s9/f_animationlight2.glb?rlkey=lnuqdtt7s6cko90ldqrmiv9nz&dl=0") else { return }
+        
+        guard let url = URL(string: "https://dl.dropboxusercontent.com/scl/fi/soa24cai1hdwn6ldluqgi/lunaguin_blender_noMetal_ex_subd_tm.glb?rlkey=rh6s300hpy61x2bq6dbkkqt77&dl=0") else { return }
     
     
         
@@ -63,7 +65,7 @@ class Scene3DModelViewController: UIViewController, URLSessionDelegate {
                 ILog.debug(tag: #file, content: "Our local URL = \(fileURL?.absoluteString ?? "")")
                 
                 //1. Create The Filename
-                let myFileUrl = self.getDocumentsDirectory().appendingPathComponent("test5.glb")
+                let myFileUrl = self.getDocumentsDirectory().appendingPathComponent("test11.glb")
                 
                 //2. Copy It To The Documents Directory
                 do {
@@ -165,7 +167,7 @@ class Scene3DModelViewController: UIViewController, URLSessionDelegate {
 //        scnView.backgroundColor = UIColor.clear
         
         //1. Get The Path Of The Downloaded File
-        let downloadedScenePath = getDocumentsDirectory().appendingPathComponent("test5.glb")
+        let downloadedScenePath = getDocumentsDirectory().appendingPathComponent("test11.glb")
         
         self.scnView.autoenablesDefaultLighting=true
         self.scnView.showsStatistics=true
